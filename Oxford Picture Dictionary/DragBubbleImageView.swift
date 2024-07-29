@@ -18,8 +18,8 @@ struct DragBubbleImageView: View {
         
         var body: some View {
             Circle()
-                .frame(width: 10, height: 10)
-                .foregroundColor(.black)
+                .frame(width: 8, height: 8)
+                .foregroundColor(.red)
                 .position(position)
                 .gesture(
                     DragGesture()
