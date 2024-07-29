@@ -9,8 +9,8 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    static var maxPage: Int = 21
-    let isUsingDrag: Bool = false
+    static var maxPage: Int = 40
+    static let isUsingDrag: Int = 0
     
     @State var counter: Int = maxPage
     func setCounter(val: Int) -> Void {
@@ -21,6 +21,7 @@ struct ContentView: View {
     class FileLoader: ObservableObject {
         @Published var fileName: String = "" {
             didSet {
+                if ContentView.isUsingDrag != 0 { return }
                 data = getCSVData(fileName: fileName)
                 title = getCSVTitle(fileName: fileName)
             }
@@ -77,8 +78,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ZStack {
-                if !isUsingDrag {
-
+                if ContentView.isUsingDrag == 0 {
                     BubbleImageView(bubbles: fileLoader.data
                         .map { data in
                         return Bubble(word: data[0],
