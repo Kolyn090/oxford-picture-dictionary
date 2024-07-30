@@ -26,12 +26,13 @@ struct BubbleImageView: View {
         let number: Int
         
         var body: some View {
-            
             Button {
                 isOpened.toggle()
+                if isOpened {
+                    SpeechManager.shared.speak(word: word)
+                }
             } label: {
                 if isOpened {
-                    
                     Text(word)
                         .foregroundColor(.black)
                         .padding(2)
@@ -50,6 +51,14 @@ struct BubbleImageView: View {
                     }
                 }
             }
+            .background(GeometryReader { geo in Color.clear
+                .onChange(of: word) {
+                    // Closes the bubble
+                    // !bug: it won't work if the same word appears
+                    //       in the same index
+                    isOpened = false
+                }
+            })
         }
     }
     
@@ -83,13 +92,13 @@ struct BubbleImageView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .overlay(
-                    GeometryReader { geometry in
+                    GeometryReader { geo in
                         ZStack {
                             ForEach(Array(bubbles.enumerated()), id: \.offset) { index, bubble in
                                 BubbleButton(word: bubble.word, number: index+1)
                                     .position(
-                                        x: geometry.size.width * scale * bubble.xPercentage - offset.width + geometry.size.width * (1 - scale)/2,
-                                        y: geometry.size.height * scale * bubble.yPercentage - offset.height + geometry.size.height * (1 - scale)/2
+                                        x: geo.size.width * scale * bubble.xPercentage - offset.width + geo.size.width * (1 - scale)/2,
+                                        y: geo.size.height * scale * bubble.yPercentage - offset.height + geo.size.height * (1 - scale)/2
                                     )
                                     .offset(CGSize(width: offset.width, height: offset.height))
                                     .scaleEffect(1/scale)

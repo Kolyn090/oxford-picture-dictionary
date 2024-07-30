@@ -89,20 +89,30 @@ struct ContentView: View {
                     DragBubbleImageView(imageName: fileLoader.fileName)
                 }
             }
-            HStack {
-                Button {
-                    setCounter(val: counter-1)
-                    fileLoader.fileName = "p\(counter)"
-                } label: {
-                    Text("Previous")
+            VStack {
+                HStack {
+                    Spacer()
+                    Button {
+                        setCounter(val: counter-1)
+                        fileLoader.fileName = "p\(counter)"
+                    } label: {
+                        Text("Previous")
+                    }
+                    
+                    Spacer()
+                    
+                    Button {
+                        setCounter(val: counter+1)
+                        fileLoader.fileName = "p\(counter)"
+                    } label: {
+                        Text("Next")
+                    }
+                    Spacer()
                 }
+                .padding()
                 
-                Button {
-                    setCounter(val: counter+1)
-                    fileLoader.fileName = "p\(counter)"
-                } label: {
-                    Text("Next")
-                }
+                SpeechAdjustView()
+                    .padding()
             }
         }
     }

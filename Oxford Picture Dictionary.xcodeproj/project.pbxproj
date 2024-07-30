@@ -39,6 +39,10 @@
 		5DB2E3E12C57CFB800E03552 /* p38.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2E3E02C57CFB800E03552 /* p38.csv */; };
 		5DB2E3E32C57CFC200E03552 /* p39.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2E3E22C57CFC200E03552 /* p39.csv */; };
 		5DB2E3E52C57CFCB00E03552 /* p40.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2E3E42C57CFCB00E03552 /* p40.csv */; };
+		5DB2E3E72C581B9B00E03552 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2E3E62C581B9B00E03552 /* SpeechManager.swift */; };
+		5DB2E3E92C58242200E03552 /* SpeechAdjustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2E3E82C58242200E03552 /* SpeechAdjustView.swift */; };
+		5DB2E3EC2C58477700E03552 /* FloatSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2E3EB2C58477700E03552 /* FloatSlider.swift */; };
+		5DB2E3F02C58552600E03552 /* PercentObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2E3EF2C58552600E03552 /* PercentObservableObject.swift */; };
 		5DD8140C2C5691E1002AC1BC /* p5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8140B2C5691E1002AC1BC /* p5.csv */; };
 		5DD8140E2C56C14F002AC1BC /* p6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8140D2C56C14F002AC1BC /* p6.csv */; };
 		5DD814102C56C3D8002AC1BC /* p7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8140F2C56C3D8002AC1BC /* p7.csv */; };
@@ -111,6 +115,10 @@
 		5DB2E3E02C57CFB800E03552 /* p38.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = p38.csv; sourceTree = "<group>"; };
 		5DB2E3E22C57CFC200E03552 /* p39.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = p39.csv; sourceTree = "<group>"; };
 		5DB2E3E42C57CFCB00E03552 /* p40.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = p40.csv; sourceTree = "<group>"; };
+		5DB2E3E62C581B9B00E03552 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		5DB2E3E82C58242200E03552 /* SpeechAdjustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechAdjustView.swift; sourceTree = "<group>"; };
+		5DB2E3EB2C58477700E03552 /* FloatSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatSlider.swift; sourceTree = "<group>"; };
+		5DB2E3EF2C58552600E03552 /* PercentObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentObservableObject.swift; sourceTree = "<group>"; };
 		5DD8140B2C5691E1002AC1BC /* p5.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = p5.csv; sourceTree = "<group>"; };
 		5DD8140D2C56C14F002AC1BC /* p6.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = p6.csv; sourceTree = "<group>"; };
 		5DD8140F2C56C3D8002AC1BC /* p7.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = p7.csv; sourceTree = "<group>"; };
@@ -178,13 +186,17 @@
 		5D1296D12C55B05B00A9D40D /* Oxford Picture Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				5D1296D82C55B05D00A9D40D /* Assets.xcassets */,
 				5D1296D22C55B05B00A9D40D /* Oxford_Picture_DictionaryApp.swift */,
 				5D1296D42C55B05B00A9D40D /* ContentView.swift */,
-				5D1296D82C55B05D00A9D40D /* Assets.xcassets */,
-				5D1296DA2C55B05D00A9D40D /* Preview Content */,
 				5D1296FE2C55B2F700A9D40D /* Bubble.swift */,
 				5D1297002C55B39700A9D40D /* BubbleImageView.swift */,
 				5D1297042C55BCC400A9D40D /* DragBubbleImageView.swift */,
+				5DB2E3E62C581B9B00E03552 /* SpeechManager.swift */,
+				5DB2E3EF2C58552600E03552 /* PercentObservableObject.swift */,
+				5DB2E3E82C58242200E03552 /* SpeechAdjustView.swift */,
+				5DB2E3EA2C58475300E03552 /* components */,
+				5D1296DA2C55B05D00A9D40D /* Preview Content */,
 				5D1297062C55C32600A9D40D /* Words */,
 			);
 			path = "Oxford Picture Dictionary";
@@ -259,6 +271,14 @@
 				5DB2E3E42C57CFCB00E03552 /* p40.csv */,
 			);
 			path = Words;
+			sourceTree = "<group>";
+		};
+		5DB2E3EA2C58475300E03552 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				5DB2E3EB2C58477700E03552 /* FloatSlider.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,10 +450,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB2E3E72C581B9B00E03552 /* SpeechManager.swift in Sources */,
 				5D1296D52C55B05B00A9D40D /* ContentView.swift in Sources */,
+				5DB2E3EC2C58477700E03552 /* FloatSlider.swift in Sources */,
 				5D1297052C55BCC400A9D40D /* DragBubbleImageView.swift in Sources */,
 				5D1296FF2C55B2F700A9D40D /* Bubble.swift in Sources */,
+				5DB2E3E92C58242200E03552 /* SpeechAdjustView.swift in Sources */,
 				5D1297012C55B39800A9D40D /* BubbleImageView.swift in Sources */,
+				5DB2E3F02C58552600E03552 /* PercentObservableObject.swift in Sources */,
 				5D1296D32C55B05B00A9D40D /* Oxford_Picture_DictionaryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

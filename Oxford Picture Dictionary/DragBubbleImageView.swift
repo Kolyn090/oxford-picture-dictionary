@@ -39,12 +39,12 @@ struct DragBubbleImageView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .overlay(
-                    GeometryReader { geometry in
+                    GeometryReader { geo in
                         ZStack {
-                            BubbleButton(viewWidth: geometry.size.width, viewHeight: geometry.size.height)
+                            BubbleButton(viewWidth: geo.size.width, viewHeight: geo.size.height)
                                 .position(
-                                    x: geometry.size.width * 0.5,
-                                    y: geometry.size.height * 0.5
+                                    x: geo.size.width * 0.5,
+                                    y: geo.size.height * 0.5
                                 )
                         }
                     }
