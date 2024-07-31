@@ -76,7 +76,7 @@ struct ContentView: View {
     }
     
     var body: some View {
-        VStack {
+        ZStack {
             ZStack {
                 if ContentView.isUsingDrag == 0 {
                     BubbleImageView(bubbles: fileLoader.data
@@ -90,6 +90,7 @@ struct ContentView: View {
                 }
             }
             VStack {
+                Spacer()
                 HStack {
                     Spacer()
                     Button {
@@ -97,6 +98,7 @@ struct ContentView: View {
                         fileLoader.fileName = "p\(counter)"
                     } label: {
                         Text("Previous")
+                            .background(.black)
                     }
                     
                     Spacer()
@@ -106,6 +108,7 @@ struct ContentView: View {
                         fileLoader.fileName = "p\(counter)"
                     } label: {
                         Text("Next")
+                            .background(.black)
                     }
                     Spacer()
                 }
