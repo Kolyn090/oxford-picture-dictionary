@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    static var maxPage: Int = 40
+    static var maxPage: Int = 50
     static let isUsingDrag: Int = 0
     
     @State var counter: Int = maxPage
@@ -89,33 +89,35 @@ struct ContentView: View {
                     DragBubbleImageView(imageName: fileLoader.fileName)
                 }
             }
-            VStack {
-                Spacer()
-                HStack {
+            if ContentView.isUsingDrag == 0 {
+                VStack {
                     Spacer()
-                    Button {
-                        setCounter(val: counter-1)
-                        fileLoader.fileName = "p\(counter)"
-                    } label: {
-                        Text("Previous")
-                            .background(.black)
+                    HStack {
+                        Spacer()
+                        Button {
+                            setCounter(val: counter-1)
+                            fileLoader.fileName = "p\(counter)"
+                        } label: {
+                            Text("Previous")
+                                .background(.black)
+                        }
+                        
+                        Spacer()
+                        
+                        Button {
+                            setCounter(val: counter+1)
+                            fileLoader.fileName = "p\(counter)"
+                        } label: {
+                            Text("Next")
+                                .background(.black)
+                        }
+                        Spacer()
                     }
-                    
-                    Spacer()
-                    
-                    Button {
-                        setCounter(val: counter+1)
-                        fileLoader.fileName = "p\(counter)"
-                    } label: {
-                        Text("Next")
-                            .background(.black)
-                    }
-                    Spacer()
-                }
-                .padding()
-                
-                SpeechAdjustView()
                     .padding()
+                    
+                    SpeechAdjustView()
+                        .padding()
+                }
             }
         }
     }
