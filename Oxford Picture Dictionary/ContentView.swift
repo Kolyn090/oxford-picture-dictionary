@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    static var maxPage: Int = 50
+    static var maxPage: Int = 60
     static let isUsingDrag: Int = 0
     
     @State var counter: Int = maxPage
