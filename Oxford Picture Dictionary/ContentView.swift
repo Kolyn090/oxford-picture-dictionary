@@ -9,14 +9,15 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+    static var minPage: Int = 2
     static var maxPage: Int = 103
     static let isUsingDrag: Int = 0
     
-    @State var counter: Int = maxPage
+    @State var counter: Int = minPage
     func setCounter(val: Int) -> Void {
         counter = min(max(2, val), ContentView.maxPage)
     }
-    @ObservedObject var fileLoader = FileLoader(fileName: "p\(maxPage)")
+    @ObservedObject var fileLoader = FileLoader(fileName: "p\(minPage)")
     
     class FileLoader: ObservableObject {
         @Published var fileName: String = "" {
