@@ -15,7 +15,7 @@ struct ContentView: View {
     
     @State var counter: Int = minPage
     func setCounter(val: Int) -> Void {
-        counter = min(max(2, val), ContentView.maxPage)
+        counter = min(max(ContentView.minPage, val), ContentView.maxPage)
     }
     @ObservedObject var fileLoader = FileLoader(fileName: "p\(minPage)")
     
@@ -106,10 +106,13 @@ struct ContentView: View {
                                         .fontWeight(.bold)
                                 }
                                 .padding()
-                                .background(Color.ButtonBGColor)
+                                .background(counter == ContentView.minPage ?
+                                            Color.Disable :
+                                            Color.ButtonBGColor)
                                 .cornerRadius(20)
                                 .foregroundColor(.white)
                             }
+                            .disabled(counter == ContentView.minPage)
                             
                             Spacer()
                             
@@ -124,11 +127,14 @@ struct ContentView: View {
                                         .fontWeight(.bold)
                                 }
                                 .padding()
-                                .background(Color.ButtonBGColor)
+                                .background(counter == ContentView.maxPage ?
+                                            Color.Disable :
+                                            Color.ButtonBGColor)
                                 .cornerRadius(20)
                                 .foregroundColor(.white)
                                 
                             }
+                            .disabled(counter == ContentView.maxPage)
                         }
                         .padding(.horizontal, 10)
                         

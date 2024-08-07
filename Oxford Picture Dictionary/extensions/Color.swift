@@ -32,5 +32,8 @@ extension Color {
     static var ButtonBGColor: Color {
         return Color("ButtonBGColor")
     }
+    static var Disable: Color {
+        return Color("Disable")
+    }
 }
 
