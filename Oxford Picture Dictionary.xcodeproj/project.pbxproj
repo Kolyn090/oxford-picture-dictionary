@@ -83,6 +83,9 @@
 		5D440E722C5A9E92000774C1 /* p98.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D440E2D2C5A9E91000774C1 /* p98.csv */; };
 		5D440E732C5A9E92000774C1 /* p48.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D440E2E2C5A9E91000774C1 /* p48.csv */; };
 		5D440E742C5A9E92000774C1 /* p100.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D440E2F2C5A9E91000774C1 /* p100.csv */; };
+		5DAF8EBB2C62ADA200B41F0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF8EBA2C62ADA200B41F0A /* Constants.swift */; };
+		5DAF8EBD2C62ADB000B41F0A /* UserDefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF8EBC2C62ADB000B41F0A /* UserDefaultsUtils.swift */; };
+		5DAF8EC02C62ADE200B41F0A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF8EBF2C62ADE200B41F0A /* Color.swift */; };
 		5DB2E3C02C57CEDE00E03552 /* p22.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2E3BF2C57CEDE00E03552 /* p22.csv */; };
 		5DB2E3C22C57CEE800E03552 /* p23.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2E3C12C57CEE800E03552 /* p23.csv */; };
 		5DB2E3C42C57CEF200E03552 /* p24.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2E3C32C57CEF200E03552 /* p24.csv */; };
@@ -222,6 +225,9 @@
 		5D440E2D2C5A9E91000774C1 /* p98.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p98.csv; sourceTree = "<group>"; };
 		5D440E2E2C5A9E91000774C1 /* p48.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p48.csv; sourceTree = "<group>"; };
 		5D440E2F2C5A9E91000774C1 /* p100.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p100.csv; sourceTree = "<group>"; };
+		5DAF8EBA2C62ADA200B41F0A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5DAF8EBC2C62ADB000B41F0A /* UserDefaultsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtils.swift; sourceTree = "<group>"; };
+		5DAF8EBF2C62ADE200B41F0A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5DB2E3BF2C57CEDE00E03552 /* p22.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = p22.csv; sourceTree = "<group>"; };
 		5DB2E3C12C57CEE800E03552 /* p23.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = p23.csv; sourceTree = "<group>"; };
 		5DB2E3C32C57CEF200E03552 /* p24.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = p24.csv; sourceTree = "<group>"; };
@@ -322,6 +328,8 @@
 				5DB2E3EF2C58552600E03552 /* PercentObservableObject.swift */,
 				5DB2E3E82C58242200E03552 /* SpeechAdjustView.swift */,
 				5DB2E3EA2C58475300E03552 /* components */,
+				5DAF8EBE2C62ADD100B41F0A /* extensions */,
+				5DAF8EB92C62AD9000B41F0A /* utils */,
 				5D1296DA2C55B05D00A9D40D /* Preview Content */,
 				5D1297062C55C32600A9D40D /* Words */,
 			);
@@ -460,6 +468,23 @@
 				5D440DEE2C5A9E90000774C1 /* p103.csv */,
 			);
 			path = Words;
+			sourceTree = "<group>";
+		};
+		5DAF8EB92C62AD9000B41F0A /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF8EBA2C62ADA200B41F0A /* Constants.swift */,
+				5DAF8EBC2C62ADB000B41F0A /* UserDefaultsUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		5DAF8EBE2C62ADD100B41F0A /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF8EBF2C62ADE200B41F0A /* Color.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		5DB2E3EA2C58475300E03552 /* components */ = {
@@ -707,9 +732,12 @@
 				5DB2E3EC2C58477700E03552 /* FloatSlider.swift in Sources */,
 				5D1297052C55BCC400A9D40D /* DragBubbleImageView.swift in Sources */,
 				5D1296FF2C55B2F700A9D40D /* Bubble.swift in Sources */,
+				5DAF8EC02C62ADE200B41F0A /* Color.swift in Sources */,
+				5DAF8EBB2C62ADA200B41F0A /* Constants.swift in Sources */,
 				5DB2E3E92C58242200E03552 /* SpeechAdjustView.swift in Sources */,
 				5D1297012C55B39800A9D40D /* BubbleImageView.swift in Sources */,
 				5DB2E3F02C58552600E03552 /* PercentObservableObject.swift in Sources */,
+				5DAF8EBD2C62ADB000B41F0A /* UserDefaultsUtils.swift in Sources */,
 				5D1296D32C55B05B00A9D40D /* Oxford_Picture_DictionaryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

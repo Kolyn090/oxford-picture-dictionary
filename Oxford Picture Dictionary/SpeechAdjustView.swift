@@ -8,59 +8,39 @@
 import SwiftUI
 
 struct SpeechAdjustView: View {
-    @State private var initFrame: CGRect = .infinite
-    @State private var hasAppeared: Bool = false
+    @State private var screenWidth: CGFloat = 0
+    @State private var screenHeight: CGFloat = 0
+
     
     var body: some View {
         VStack {
-            HStack {
-                Spacer()
-                
-                Button {
-                    SpeechManager.shared.changeLanguage(to: "en-US")
-                } label: {
-                    Text("US")
-                }
-                
-                Spacer()
-                
-                Button {
-                    SpeechManager.shared.changeLanguage(to: "en-UK")
-                } label: {
-                    Text("UK")
-                }
-                
-                Spacer()
+            ZStack() {
+                FloatSlider(percentObject: SpeechManager.shared.speedRateObject,
+                            width: screenWidth, height: screenHeight)
+                Text("speed")
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.TextColorPrimary)
             }
-            
-            if hasAppeared {
-                VStack {
-                    HStack {
-                        Spacer()
-                        Text("Speaking speed:")
-                            .background(.background)
-                        FloatSlider(percentObject: SpeechManager.shared.speedRateObject,
-                                    width: initFrame.width, height: initFrame.height)
-                        
-                        Spacer()
-                    }
-                    HStack {
-                        Spacer()
-                        Text("Speaking volume:")
-                            .background(.background)
-                        FloatSlider(percentObject: SpeechManager.shared.volumeObject,
-                                    width: initFrame.width, height: initFrame.height)
-                        
-                        Spacer()
-                    }
-                }
+            ZStack() {
+                FloatSlider(percentObject: SpeechManager.shared.volumeObject,
+                            width: screenWidth, height: screenHeight)
+                Text("volume")
+                    .font(.title3)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.TextColorPrimary)
             }
         }
-        .background(GeometryReader { geo in Color.clear
-            .onAppear {
-                initFrame = geo.frame(in: .global)
-                hasAppeared = true
-            }
+        .background(GeometryReader { geometry in
+            Color.clear
+                .onAppear {
+                    screenWidth = geometry.size.width
+                    screenHeight = geometry.size.height
+                }
+                .onChange(of: geometry.size) { newSize, oldState in
+                    screenWidth = newSize.width
+                    screenHeight = newSize.height
+                }
         })
     }
 }

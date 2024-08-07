@@ -88,9 +88,13 @@ struct BubbleImageView: View {
         
         VStack {
             Text(title)
+                .fontWeight(.bold)
+                .font(.title)
+            
             Image(imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
+                .border(.green)
                 .overlay(
                     GeometryReader { geo in
                         ZStack {
@@ -111,13 +115,16 @@ struct BubbleImageView: View {
                     .onAppear {
                         initFrame = geo.frame(in: .global)
                     }
+                    .onChange(of: imageName) {
+                        offset = .zero
+                        scale = 1.0
+                    }
                 })
                 .scaledToFit()
                 .scaleEffect(scale)
                 .offset(offset)
                 .gesture(combinedGesture)
                 .animation(.spring(), value: offset)
-                
         }
     }
     

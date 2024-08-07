@@ -13,10 +13,11 @@ class PercentObservableObject: ObservableObject {
     let minimum: Float
     let maximum: Float
     
-    init(val: Float, minimum: Float, maximum: Float) {
+    init(val: Float, minimum: Float, maximum: Float, defaultPercent: Float = 1) {
         self.val = val
         self.minimum = minimum
         self.maximum = maximum
+        self.percent = defaultPercent
     }
     
     func setPercent(newPercent: Float) -> Void {

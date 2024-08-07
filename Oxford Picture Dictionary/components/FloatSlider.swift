@@ -8,33 +8,47 @@
 import SwiftUI
 
 struct FloatSlider: View {
+    private static let lineWidth: CGFloat = 5.0
+    
     @ObservedObject var percentObject: PercentObservableObject
     
     let width: CGFloat
     let height: CGFloat
+    var useWidth: CGFloat {
+        get {
+            return width * 3
+        }
+    }
+    var useHeight: CGFloat {
+        get {
+            return height / 2
+        }
+    }
+    var dotLength: CGFloat {
+        get {
+            return max(height / 2.1 - 2 * FloatSlider.lineWidth, 1)
+        }
+    }
     
     var body: some View {
-        GeometryReader { geo in
-            ZStack(alignment: .leading) {
-                Capsule()
-                    .fill(.black.opacity(0.08))
-                    .frame(height: height/2)
-                Capsule()
-                    .fill(.black)
-                    .stroke(.white, lineWidth: 2)
-                    .frame(width: CGFloat(percentObject.percent) * geo.size.width, height: height/2)
-                Capsule()
-                    .fill(.gray)
-                    .frame(width: 10, height: 10)
-                    .padding(.leading, CGFloat(percentObject.percent) * geo.size.width-9)
-            }
-            .gesture(DragGesture()
-                .onChanged({ input in
-                    let x = input.location.x
-                    percentObject.setPercent(newPercent: Float(min(max(x / geo.size.width, 0), 1)))
-                })
-            )
+        ZStack(alignment: .leading) {
+            Capsule()
+                .fill(Color.BackgroundColor)
+                .stroke(Color.TextColorPrimary, lineWidth: FloatSlider.lineWidth)
+                .frame(width: useWidth, height: useHeight)
+                .padding(.leading)
+            Capsule()
+                .fill(Color.TextColorPrimary)
+                .frame(width: dotLength, height: dotLength)
+                .padding(.leading, CGFloat(percentObject.percent) * useWidth)
         }
-        .frame(width: width/2, height: height/2)
+        .gesture(DragGesture()
+            .onChanged({ input in
+                let x = input.location.x
+                percentObject.setPercent(newPercent: Float(min(max(x / useWidth, 0.11), 0.96)))
+            })
+        )
+        .frame(width: useWidth, height: useHeight)
+        .offset(x: -2 * FloatSlider.lineWidth)
     }
 }

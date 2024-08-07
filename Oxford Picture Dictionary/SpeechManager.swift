@@ -11,8 +11,8 @@ class SpeechManager {
     static let shared = SpeechManager()
     
     let speedRateObject = PercentObservableObject(val: AVSpeechUtteranceDefaultSpeechRate, 
-                                                minimum: 0.2, maximum: 0.6)
-    let volumeObject = PercentObservableObject(val: 1.0, minimum: 0, maximum: 1)
+                                                  minimum: 0.2, maximum: 0.6, defaultPercent: 0.96)
+    let volumeObject = PercentObservableObject(val: 1.0, minimum: 0, maximum: 1, defaultPercent: 0.96)
     
     private let synthesizer = AVSpeechSynthesizer()
     private var voice = AVSpeechSynthesisVoice(language: "en-UK")

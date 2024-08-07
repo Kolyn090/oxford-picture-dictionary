@@ -93,31 +93,48 @@ struct ContentView: View {
             if ContentView.isUsingDrag == 0 {
                 VStack {
                     Spacer()
-                    HStack {
-                        Spacer()
-                        Button {
-                            setCounter(val: counter-1)
-                            fileLoader.fileName = "p\(counter)"
-                        } label: {
-                            Text("Previous")
-                                .background(.black)
+                    ZStack() {
+                        HStack {
+                            Button {
+                                setCounter(val: counter-1)
+                                fileLoader.fileName = "p\(counter)"
+                            } label: {
+                                HStack {
+                                    Text("◀ ")
+                                        .foregroundStyle(Color.ColorPrimary)
+                                        .font(.title)
+                                        .fontWeight(.bold)
+                                }
+                                .padding()
+                                .background(Color.ButtonBGColor)
+                                .cornerRadius(20)
+                                .foregroundColor(.white)
+                            }
+                            
+                            Spacer()
+                            
+                            Button {
+                                setCounter(val: counter+1)
+                                fileLoader.fileName = "p\(counter)"
+                            } label: {
+                                HStack {
+                                    Text(" ▶")
+                                        .foregroundStyle(Color.ColorPrimary)
+                                        .font(.title)
+                                        .fontWeight(.bold)
+                                }
+                                .padding()
+                                .background(Color.ButtonBGColor)
+                                .cornerRadius(20)
+                                .foregroundColor(.white)
+                                
+                            }
                         }
+                        .padding(.horizontal, 10)
                         
-                        Spacer()
-                        
-                        Button {
-                            setCounter(val: counter+1)
-                            fileLoader.fileName = "p\(counter)"
-                        } label: {
-                            Text("Next")
-                                .background(.black)
-                        }
-                        Spacer()
+                        SpeechAdjustView()
+                            .padding()
                     }
-                    .padding()
-                    
-                    SpeechAdjustView()
-                        .padding()
                 }
             }
         }
