@@ -18,6 +18,7 @@ struct ContentView: View {
         counter = min(max(ContentView.minPage, val), ContentView.maxPage)
     }
     @ObservedObject var fileLoader = FileLoader(fileName: "p\(minPage)")
+    @ObservedObject var langManager = LangManager()
     
     class FileLoader: ObservableObject {
         @Published var fileName: String = "" {
@@ -141,6 +142,17 @@ struct ContentView: View {
                         SpeechAdjustView()
                             .padding()
                     }
+                }
+            }
+            
+            LangView(langManager: langManager)
+            
+            HStack {
+                Spacer()
+                VStack {
+                    LangButton(langManager: langManager)
+                        .padding()
+                    Spacer()
                 }
             }
         }
