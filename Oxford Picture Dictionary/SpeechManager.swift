@@ -39,5 +39,9 @@ class SpeechManager {
     private func process(word: String) -> String {
         return word.replacingOccurrences(of: "(", with: "")
             .replacingOccurrences(of: ")", with: "")
+            .replacingOccurrences(of: "（", with: "")
+            .replacingOccurrences(of: " （", with: "")
+            .replacingOccurrences(of: "）", with: "")
+            .replacingOccurrences(of: "） ", with: "")
     }
 }

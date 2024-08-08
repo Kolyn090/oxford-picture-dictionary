@@ -14,10 +14,16 @@ struct LangButton: View {
         Button {
             langManager.isShowView.toggle()
         } label: {
-            Image(langManager.currentLang.rawValue)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
+            Circle()
                 .frame(width: 64, height: 64)
+                .overlay(
+                    Image(langManager.currentLang.rawValue)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 48, height: 48)
+                )
+                .foregroundColor(Color.secondary)
+                .background(.clear)
         }
     }
 }
