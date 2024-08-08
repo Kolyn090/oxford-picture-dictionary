@@ -8,58 +8,63 @@
 import Foundation
 
 class LangFileLoader: ObservableObject {
-    @Published var fileName: String = "" {
+    @Published var positionFileName: String = "" {
         didSet {
             if ContentView.isUsingDrag != 0 { return }
-            data = getCSVData(fileName: fileName)
-            title = getCSVTitle(fileName: fileName)
+            positionData = getPositionData(fileName: positionFileName)
         }
     }
-    @Published var data: [[String]] = []
+    @Published var wordsFileName: String = "" {
+        didSet {
+            if ContentView.isUsingDrag != 0 { return }
+            wordsData = getWords(fileName: wordsFileName)
+            if wordsData.isEmpty {
+                title = ""
+            } else {
+                title = wordsData.removeFirst()
+            }
+        }
+    }
+    @Published var positionData: [[String]] = []
+    @Published var wordsData: [String] = []
     @Published var title: String = ""
 
-    init(fileName: String) {
-        self.fileName = fileName
-    }
-
-    func getCSVData(fileName: String) -> [[String]] {
+    func getPositionData(fileName: String) -> [[String]] {
         if let filePath = Bundle.main.path(forResource: fileName, ofType: "csv") {
             do {
                 let content = try String(contentsOfFile: filePath, encoding: .utf8)
                 var parsedCSV: [String] = content.components(separatedBy: "\n")
                 parsedCSV.removeFirst()
                 
-                var filteredCSV:[[String]] = parsedCSV
+                let filteredCSV:[[String]] = parsedCSV
                     .filter { $0 != "" }
                     .map {
                         [$0.components(separatedBy: ",")[0],
-                         $0.components(separatedBy: ",")[1],
-                         $0.components(separatedBy: ",")[2]]
+                         $0.components(separatedBy: ",")[1]]
                     }
-                filteredCSV.removeFirst()
                 return filteredCSV
             } catch {
                 print("Error reading file: \(error)")
                 return []
             }
         } else {
-            print("File not found")
+            print("File not found: \(fileName)")
             return []
         }
     }
     
-    func getCSVTitle(fileName: String) -> String {
-        if let filePath = Bundle.main.path(forResource: fileName, ofType: "csv") {
+    func getWords(fileName: String) -> [String] {
+        if let filePath = Bundle.main.path(forResource: fileName, ofType: "txt") {
             do {
                 let content = try String(contentsOfFile: filePath, encoding: .utf8)
-                return content.components(separatedBy: "\n").first ?? ""
+                return content.components(separatedBy: "\n")
             } catch {
                 print("Error reading file: \(error)")
-                return ""
+                return []
             }
         } else {
-            print("File not found")
-            return ""
+            print("File not found: \(fileName)")
+            return []
         }
     }
 }

@@ -1,0 +1,22 @@
+Cars
+jack
+spare tire
+trunk
+flare
+rear bumper
+hatchback
+sunroof
+windshield
+antenna
+hood
+headlights
+parking lights
+turn signal (lights)
+front bumper
+air filter
+fan belt
+battery
+terminal
+radiator
+hose
+dipstick

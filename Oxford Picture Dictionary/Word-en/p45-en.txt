@@ -1,0 +1,17 @@
+The City
+elevator
+bookstore
+parking garage
+parking meter
+traffic light
+drugstore
+apartment house
+building number
+sidewalk
+curb
+baby carriage
+fruit and vegetable market
+streetlight
+newsstand
+street
+manhole

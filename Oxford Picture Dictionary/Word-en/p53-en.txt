@@ -1,0 +1,28 @@
+Highway Travel
+interstate highway
+exit ramp
+overpass
+cloverleaf
+left lane
+center lane
+right lane
+speed limit sign
+hitchhiker
+trailer
+service area
+attendant
+air pump
+gas pump
+passenger car
+camper
+sports car
+center divider
+motorcycle
+bus
+entrance ramp
+shoulder
+road sign
+exit sign
+truck
+van
+tollbooth

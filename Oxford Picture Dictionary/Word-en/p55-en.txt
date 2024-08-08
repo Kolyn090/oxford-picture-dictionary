@@ -1,0 +1,21 @@
+Public Transportation
+commuter train
+engineer
+ticket
+commuter
+station
+ticket window
+timetable
+fare
+tip
+meter
+receipt
+passenger
+cab driver
+taxicab
+taxi stand
+monorail
+streetcar
+aerial tramway
+cable car
+horse-drawn carriage

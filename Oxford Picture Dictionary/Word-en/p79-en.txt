@@ -1,0 +1,37 @@
+Math
+straight line
+perpendicular lines
+curve
+parallel lines
+obtuse angle
+triangle
+base
+acute angle
+square
+side
+circle
+diameter
+center
+radius
+section
+arc
+circumference
+oval
+rectangle
+diagonal
+apex
+right triangle
+right angle
+hypotenuse
+pyramid
+cylinder
+cube
+cone
+whole
+a half
+a quater
+a third
+depth
+height
+width
+length

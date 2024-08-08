@@ -1,0 +1,19 @@
+Mammals II
+monkey
+gibbon
+chimpanzee
+gorilla
+orangutan
+baboon
+panda
+black bear
+polar bear
+grizzly bear
+spaniel
+terrier
+retriever
+puppy
+shepherd
+wolf
+paw
+hyena

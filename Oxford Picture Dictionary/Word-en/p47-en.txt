@@ -1,0 +1,27 @@
+The Public Library
+library clerk
+checkout desk
+library card
+card catalog
+drawer
+call card
+call number
+author
+title
+subject
+row
+call slip
+microfilm
+microfilm reader
+periodicals section
+magazine
+rack
+photocopy machine
+globe
+atalas
+reference section
+information desk
+(reference) librarian
+dictionary
+encyclopedia
+shelf

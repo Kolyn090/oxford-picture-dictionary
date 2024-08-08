@@ -1,0 +1,41 @@
+Map of the World
+Arctic
+Barents Sea
+Kara Sea
+Arbian Sea
+Baltic Sea
+Urals
+Ob
+Yenisey
+Lena
+Bering Sea
+Europe
+Alps
+Black Sea
+Mediterranean Sea
+Caspian Sea
+Caucasus
+Persian Gulf
+Nile
+Africa
+Red Sea
+Congo
+Rub' al Khali
+Arabian Sea
+Asia
+Sea of Okhotsk
+Takla Makan
+Gobi
+Himalayas
+Huang
+Ganges
+Yangtze
+Yellow Sea
+Sea of Japan
+East China Sea
+Bay of Bengal
+South China Sea
+Indian
+Australia
+Great Sandy
+Antarctic

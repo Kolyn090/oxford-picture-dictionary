@@ -1,0 +1,30 @@
+The Dining Room
+china
+china closet
+chandelier
+pitcher
+wine glass
+water glass
+table
+spoon
+pepper shaker
+salt shaker
+bread and butter plate
+fork
+plate
+napkin
+knife
+tablecloth
+chair
+coffeepot
+teapot
+cup
+saucer
+silverware
+sugar bowl
+creamer
+salad bowl
+flame
+candle
+candlestick
+buffet

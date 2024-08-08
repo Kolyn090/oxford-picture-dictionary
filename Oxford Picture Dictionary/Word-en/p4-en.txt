@@ -1,0 +1,49 @@
+The Human Body
+face
+mouth
+chin
+neck
+shoulder
+arm
+upper arm
+elbow
+forearm
+armpit
+back
+chest
+waist
+abdomen
+buttocks
+hip
+leg
+thigh
+knee
+calf
+wrist
+knuckle
+fingernail
+thumb
+(index) finger
+middle finger
+ring finger
+little finger
+palm
+hair
+part
+forehead
+sideburn
+ear
+cheek
+nose
+nostril
+jaw
+beard
+mustache
+tongue
+tooth
+lip
+eyebrow
+eyelid
+eyelashes
+iris
+pupil

@@ -22,108 +22,210 @@
 		5D37DDC42C646A1E0099C54E /* LangManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D37DDC32C646A1E0099C54E /* LangManager.swift */; };
 		5D37DDC62C646A520099C54E /* Lang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D37DDC52C646A520099C54E /* Lang.swift */; };
 		5D37DDCC2C6476710099C54E /* LangFileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D37DDCB2C6476710099C54E /* LangFileLoader.swift */; };
-		5D37DE332C647E080099C54E /* p85-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDCD2C647E040099C54E /* p85-en.csv */; };
-		5D37DE342C647E080099C54E /* p17-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDCE2C647E040099C54E /* p17-en.csv */; };
-		5D37DE352C647E080099C54E /* p75-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDCF2C647E040099C54E /* p75-en.csv */; };
-		5D37DE362C647E080099C54E /* p31-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDD02C647E040099C54E /* p31-en.csv */; };
-		5D37DE372C647E080099C54E /* p30-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDD12C647E040099C54E /* p30-en.csv */; };
-		5D37DE382C647E080099C54E /* p101-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDD22C647E040099C54E /* p101-en.csv */; };
-		5D37DE392C647E080099C54E /* p59-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDD32C647E040099C54E /* p59-en.csv */; };
-		5D37DE3A2C647E080099C54E /* p70-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDD42C647E040099C54E /* p70-en.csv */; };
-		5D37DE3B2C647E080099C54E /* p79-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDD52C647E040099C54E /* p79-en.csv */; };
-		5D37DE3C2C647E080099C54E /* p50-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDD62C647E040099C54E /* p50-en.csv */; };
-		5D37DE3D2C647E080099C54E /* p74-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDD72C647E040099C54E /* p74-en.csv */; };
-		5D37DE3E2C647E080099C54E /* p67-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDD82C647E040099C54E /* p67-en.csv */; };
-		5D37DE3F2C647E080099C54E /* p40-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDD92C647E050099C54E /* p40-en.csv */; };
-		5D37DE402C647E080099C54E /* p94-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDDA2C647E050099C54E /* p94-en.csv */; };
-		5D37DE412C647E080099C54E /* p26-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDDB2C647E050099C54E /* p26-en.csv */; };
-		5D37DE422C647E080099C54E /* p68-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDDC2C647E050099C54E /* p68-en.csv */; };
-		5D37DE432C647E080099C54E /* p51-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDDD2C647E050099C54E /* p51-en.csv */; };
-		5D37DE442C647E080099C54E /* p24-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDDE2C647E050099C54E /* p24-en.csv */; };
-		5D37DE452C647E080099C54E /* p95-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDDF2C647E050099C54E /* p95-en.csv */; };
-		5D37DE462C647E090099C54E /* p60-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDE02C647E050099C54E /* p60-en.csv */; };
-		5D37DE472C647E090099C54E /* p71-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDE12C647E050099C54E /* p71-en.csv */; };
-		5D37DE482C647E090099C54E /* p83-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDE22C647E050099C54E /* p83-en.csv */; };
-		5D37DE492C647E090099C54E /* p18-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDE32C647E050099C54E /* p18-en.csv */; };
-		5D37DE4A2C647E090099C54E /* p14-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDE42C647E050099C54E /* p14-en.csv */; };
-		5D37DE4B2C647E090099C54E /* p32-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDE52C647E050099C54E /* p32-en.csv */; };
-		5D37DE4C2C647E090099C54E /* p100-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDE62C647E050099C54E /* p100-en.csv */; };
-		5D37DE4D2C647E090099C54E /* p97-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDE72C647E050099C54E /* p97-en.csv */; };
-		5D37DE4E2C647E090099C54E /* p63-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDE82C647E050099C54E /* p63-en.csv */; };
-		5D37DE4F2C647E090099C54E /* p25-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDE92C647E050099C54E /* p25-en.csv */; };
-		5D37DE502C647E090099C54E /* p54-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDEA2C647E050099C54E /* p54-en.csv */; };
-		5D37DE512C647E090099C54E /* p76-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDEB2C647E050099C54E /* p76-en.csv */; };
-		5D37DE522C647E090099C54E /* p69-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDEC2C647E050099C54E /* p69-en.csv */; };
-		5D37DE532C647E090099C54E /* p38-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDED2C647E050099C54E /* p38-en.csv */; };
-		5D37DE542C647E090099C54E /* p102-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDEE2C647E050099C54E /* p102-en.csv */; };
-		5D37DE552C647E090099C54E /* p86-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDEF2C647E060099C54E /* p86-en.csv */; };
-		5D37DE562C647E090099C54E /* p46-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDF02C647E060099C54E /* p46-en.csv */; };
-		5D37DE572C647E090099C54E /* p7-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDF12C647E060099C54E /* p7-en.csv */; };
-		5D37DE582C647E090099C54E /* p21-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDF22C647E060099C54E /* p21-en.csv */; };
-		5D37DE592C647E090099C54E /* p28-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDF32C647E060099C54E /* p28-en.csv */; };
-		5D37DE5A2C647E090099C54E /* p91-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDF42C647E060099C54E /* p91-en.csv */; };
-		5D37DE5B2C647E090099C54E /* p96-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDF52C647E060099C54E /* p96-en.csv */; };
-		5D37DE5C2C647E090099C54E /* p73-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDF62C647E060099C54E /* p73-en.csv */; };
-		5D37DE5D2C647E090099C54E /* p15-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDF72C647E060099C54E /* p15-en.csv */; };
-		5D37DE5E2C647E090099C54E /* p5-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDF82C647E060099C54E /* p5-en.csv */; };
-		5D37DE5F2C647E090099C54E /* p52-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDF92C647E060099C54E /* p52-en.csv */; };
-		5D37DE602C647E090099C54E /* p2-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDFA2C647E060099C54E /* p2-en.csv */; };
-		5D37DE612C647E090099C54E /* p35-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDFB2C647E060099C54E /* p35-en.csv */; };
-		5D37DE622C647E090099C54E /* p20-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDFC2C647E060099C54E /* p20-en.csv */; };
-		5D37DE632C647E090099C54E /* p58-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDFD2C647E060099C54E /* p58-en.csv */; };
-		5D37DE642C647E090099C54E /* p61-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDFE2C647E060099C54E /* p61-en.csv */; };
-		5D37DE652C647E090099C54E /* p65-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DDFF2C647E060099C54E /* p65-en.csv */; };
-		5D37DE662C647E090099C54E /* p9-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE002C647E060099C54E /* p9-en.csv */; };
-		5D37DE672C647E090099C54E /* p88-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE012C647E060099C54E /* p88-en.csv */; };
-		5D37DE682C647E090099C54E /* p3-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE022C647E060099C54E /* p3-en.csv */; };
-		5D37DE692C647E090099C54E /* p80-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE032C647E060099C54E /* p80-en.csv */; };
-		5D37DE6A2C647E090099C54E /* p33-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE042C647E060099C54E /* p33-en.csv */; };
-		5D37DE6B2C647E090099C54E /* p92-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE052C647E060099C54E /* p92-en.csv */; };
-		5D37DE6C2C647E090099C54E /* p43-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE062C647E070099C54E /* p43-en.csv */; };
-		5D37DE6D2C647E090099C54E /* p12-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE072C647E070099C54E /* p12-en.csv */; };
-		5D37DE6E2C647E090099C54E /* p41-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE082C647E070099C54E /* p41-en.csv */; };
-		5D37DE6F2C647E090099C54E /* p45-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE092C647E070099C54E /* p45-en.csv */; };
-		5D37DE702C647E090099C54E /* p8-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE0A2C647E070099C54E /* p8-en.csv */; };
-		5D37DE712C647E090099C54E /* p64-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE0B2C647E070099C54E /* p64-en.csv */; };
-		5D37DE722C647E090099C54E /* p93-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE0C2C647E070099C54E /* p93-en.csv */; };
-		5D37DE732C647E090099C54E /* p47-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE0D2C647E070099C54E /* p47-en.csv */; };
-		5D37DE742C647E090099C54E /* p62-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE0E2C647E070099C54E /* p62-en.csv */; };
-		5D37DE752C647E090099C54E /* p48-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE0F2C647E070099C54E /* p48-en.csv */; };
-		5D37DE762C647E090099C54E /* p98-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE102C647E070099C54E /* p98-en.csv */; };
-		5D37DE772C647E090099C54E /* p36-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE112C647E070099C54E /* p36-en.csv */; };
-		5D37DE782C647E090099C54E /* p72-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE122C647E070099C54E /* p72-en.csv */; };
-		5D37DE792C647E090099C54E /* p53-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE132C647E070099C54E /* p53-en.csv */; };
-		5D37DE7A2C647E090099C54E /* p34-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE142C647E070099C54E /* p34-en.csv */; };
-		5D37DE7B2C647E090099C54E /* p84-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE152C647E070099C54E /* p84-en.csv */; };
-		5D37DE7C2C647E090099C54E /* p55-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE162C647E070099C54E /* p55-en.csv */; };
-		5D37DE7D2C647E090099C54E /* p16-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE172C647E070099C54E /* p16-en.csv */; };
-		5D37DE7E2C647E090099C54E /* p27-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE182C647E070099C54E /* p27-en.csv */; };
-		5D37DE7F2C647E090099C54E /* p29-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE192C647E070099C54E /* p29-en.csv */; };
-		5D37DE802C647E090099C54E /* p42-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE1A2C647E070099C54E /* p42-en.csv */; };
-		5D37DE812C647E090099C54E /* p44-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE1B2C647E070099C54E /* p44-en.csv */; };
-		5D37DE822C647E090099C54E /* p81-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE1C2C647E070099C54E /* p81-en.csv */; };
-		5D37DE832C647E090099C54E /* p10-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE1D2C647E080099C54E /* p10-en.csv */; };
-		5D37DE842C647E090099C54E /* p99-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE1E2C647E080099C54E /* p99-en.csv */; };
-		5D37DE852C647E090099C54E /* p6-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE1F2C647E080099C54E /* p6-en.csv */; };
-		5D37DE862C647E090099C54E /* p87-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE202C647E080099C54E /* p87-en.csv */; };
-		5D37DE872C647E090099C54E /* p77-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE212C647E080099C54E /* p77-en.csv */; };
-		5D37DE882C647E090099C54E /* p82-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE222C647E080099C54E /* p82-en.csv */; };
-		5D37DE892C647E090099C54E /* p57-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE232C647E080099C54E /* p57-en.csv */; };
-		5D37DE8A2C647E090099C54E /* p56-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE242C647E080099C54E /* p56-en.csv */; };
-		5D37DE8B2C647E090099C54E /* p13-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE252C647E080099C54E /* p13-en.csv */; };
-		5D37DE8C2C647E090099C54E /* p90-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE262C647E080099C54E /* p90-en.csv */; };
-		5D37DE8D2C647E090099C54E /* p89-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE272C647E080099C54E /* p89-en.csv */; };
-		5D37DE8E2C647E090099C54E /* p39-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE282C647E080099C54E /* p39-en.csv */; };
-		5D37DE8F2C647E090099C54E /* p4-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE292C647E080099C54E /* p4-en.csv */; };
-		5D37DE902C647E090099C54E /* p22-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE2A2C647E080099C54E /* p22-en.csv */; };
-		5D37DE912C647E090099C54E /* p49-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE2B2C647E080099C54E /* p49-en.csv */; };
-		5D37DE922C647E090099C54E /* p37-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE2C2C647E080099C54E /* p37-en.csv */; };
-		5D37DE932C647E090099C54E /* p11-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE2D2C647E080099C54E /* p11-en.csv */; };
-		5D37DE942C647E090099C54E /* p66-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE2E2C647E080099C54E /* p66-en.csv */; };
-		5D37DE952C647E090099C54E /* p19-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE2F2C647E080099C54E /* p19-en.csv */; };
-		5D37DE962C647E090099C54E /* p78-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE302C647E080099C54E /* p78-en.csv */; };
-		5D37DE972C647E090099C54E /* p23-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE312C647E080099C54E /* p23-en.csv */; };
-		5D37DE982C647E090099C54E /* p103-en.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D37DE322C647E080099C54E /* p103-en.csv */; };
+		5D6531512C652536007169CE /* p19.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530842C652536007169CE /* p19.csv */; };
+		5D6531522C652536007169CE /* p31.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530852C652536007169CE /* p31.csv */; };
+		5D6531532C652536007169CE /* p25.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530862C652536007169CE /* p25.csv */; };
+		5D6531542C652536007169CE /* p24.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530872C652536007169CE /* p24.csv */; };
+		5D6531552C652536007169CE /* p30.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530882C652536007169CE /* p30.csv */; };
+		5D6531562C652536007169CE /* p18.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530892C652536007169CE /* p18.csv */; };
+		5D6531572C652536007169CE /* p26.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65308A2C652536007169CE /* p26.csv */; };
+		5D6531582C652536007169CE /* p32.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65308B2C652536007169CE /* p32.csv */; };
+		5D6531592C652536007169CE /* p33.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65308C2C652536007169CE /* p33.csv */; };
+		5D65315A2C652536007169CE /* p27.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65308D2C652536007169CE /* p27.csv */; };
+		5D65315B2C652536007169CE /* p23.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65308E2C652536007169CE /* p23.csv */; };
+		5D65315C2C652536007169CE /* p37.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65308F2C652536007169CE /* p37.csv */; };
+		5D65315D2C652536007169CE /* p36.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530902C652536007169CE /* p36.csv */; };
+		5D65315E2C652536007169CE /* p22.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530912C652536007169CE /* p22.csv */; };
+		5D65315F2C652536007169CE /* p34.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530922C652536007169CE /* p34.csv */; };
+		5D6531602C652536007169CE /* p20.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530932C652536007169CE /* p20.csv */; };
+		5D6531612C652536007169CE /* p21.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530942C652536007169CE /* p21.csv */; };
+		5D6531622C652536007169CE /* p35.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530952C652536007169CE /* p35.csv */; };
+		5D6531632C652536007169CE /* p91.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530962C652536007169CE /* p91.csv */; };
+		5D6531642C652536007169CE /* p85.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530972C652536007169CE /* p85.csv */; };
+		5D6531652C652536007169CE /* p52.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530982C652536007169CE /* p52.csv */; };
+		5D6531662C652536007169CE /* p46.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530992C652536007169CE /* p46.csv */; };
+		5D6531672C652536007169CE /* p47.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65309A2C652536007169CE /* p47.csv */; };
+		5D6531682C652536007169CE /* p53.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65309B2C652536007169CE /* p53.csv */; };
+		5D6531692C652536007169CE /* p84.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65309C2C652536007169CE /* p84.csv */; };
+		5D65316A2C652536007169CE /* p90.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65309D2C652536007169CE /* p90.csv */; };
+		5D65316B2C652537007169CE /* p86.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65309E2C652536007169CE /* p86.csv */; };
+		5D65316C2C652537007169CE /* p92.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D65309F2C652536007169CE /* p92.csv */; };
+		5D65316D2C652537007169CE /* p79.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530A02C652536007169CE /* p79.csv */; };
+		5D65316E2C652537007169CE /* p45.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530A12C652536007169CE /* p45.csv */; };
+		5D65316F2C652537007169CE /* p51.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530A22C652536007169CE /* p51.csv */; };
+		5D6531702C652537007169CE /* p2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530A32C652536007169CE /* p2.csv */; };
+		5D6531712C652537007169CE /* p3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530A42C652536007169CE /* p3.csv */; };
+		5D6531722C652537007169CE /* p50.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530A52C652536007169CE /* p50.csv */; };
+		5D6531732C652537007169CE /* p44.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530A62C652536007169CE /* p44.csv */; };
+		5D6531742C652537007169CE /* p78.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530A72C652536007169CE /* p78.csv */; };
+		5D6531752C652537007169CE /* p93.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530A82C652536007169CE /* p93.csv */; };
+		5D6531762C652537007169CE /* p87.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530A92C652536007169CE /* p87.csv */; };
+		5D6531772C652537007169CE /* p83.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530AA2C652536007169CE /* p83.csv */; };
+		5D6531782C652537007169CE /* p97.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530AB2C652536007169CE /* p97.csv */; };
+		5D6531792C652537007169CE /* p40.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530AC2C652536007169CE /* p40.csv */; };
+		5D65317A2C652537007169CE /* p54.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530AD2C652536007169CE /* p54.csv */; };
+		5D65317B2C652537007169CE /* p68.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530AE2C652536007169CE /* p68.csv */; };
+		5D65317C2C652537007169CE /* p7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530AF2C652536007169CE /* p7.csv */; };
+		5D65317D2C652537007169CE /* p6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530B02C652536007169CE /* p6.csv */; };
+		5D65317E2C652537007169CE /* p69.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530B12C652536007169CE /* p69.csv */; };
+		5D65317F2C652537007169CE /* p55.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530B22C652536007169CE /* p55.csv */; };
+		5D6531802C652537007169CE /* p41.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530B32C652536007169CE /* p41.csv */; };
+		5D6531812C652537007169CE /* p96.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530B42C652536007169CE /* p96.csv */; };
+		5D6531822C652537007169CE /* p82.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530B52C652536007169CE /* p82.csv */; };
+		5D6531832C652537007169CE /* p94.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530B62C652536007169CE /* p94.csv */; };
+		5D6531842C652537007169CE /* p80.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530B72C652536007169CE /* p80.csv */; };
+		5D6531852C652537007169CE /* p57.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530B82C652536007169CE /* p57.csv */; };
+		5D6531862C652537007169CE /* p43.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530B92C652536007169CE /* p43.csv */; };
+		5D6531872C652537007169CE /* p4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530BA2C652536007169CE /* p4.csv */; };
+		5D6531882C652537007169CE /* p5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530BB2C652536007169CE /* p5.csv */; };
+		5D6531892C652537007169CE /* p42.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530BC2C652536007169CE /* p42.csv */; };
+		5D65318A2C652537007169CE /* p56.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530BD2C652536007169CE /* p56.csv */; };
+		5D65318B2C652537007169CE /* p81.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530BE2C652536007169CE /* p81.csv */; };
+		5D65318C2C652537007169CE /* p95.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530BF2C652536007169CE /* p95.csv */; };
+		5D65318D2C652537007169CE /* p98.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530C02C652536007169CE /* p98.csv */; };
+		5D65318E2C652537007169CE /* p73.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530C12C652536007169CE /* p73.csv */; };
+		5D65318F2C652537007169CE /* p67.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530C22C652536007169CE /* p67.csv */; };
+		5D6531902C652537007169CE /* p8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530C32C652536007169CE /* p8.csv */; };
+		5D6531912C652537007169CE /* p9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530C42C652536007169CE /* p9.csv */; };
+		5D6531922C652537007169CE /* p66.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530C52C652536007169CE /* p66.csv */; };
+		5D6531932C652537007169CE /* p72.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530C62C652536007169CE /* p72.csv */; };
+		5D6531942C652537007169CE /* p99.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530C72C652536007169CE /* p99.csv */; };
+		5D6531952C652537007169CE /* p58.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530C82C652536007169CE /* p58.csv */; };
+		5D6531962C652537007169CE /* p64.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530C92C652536007169CE /* p64.csv */; };
+		5D6531972C652537007169CE /* p70.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530CA2C652536007169CE /* p70.csv */; };
+		5D6531982C652537007169CE /* p71.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530CB2C652536007169CE /* p71.csv */; };
+		5D6531992C652537007169CE /* p65.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530CC2C652536007169CE /* p65.csv */; };
+		5D65319A2C652537007169CE /* p59.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530CD2C652536007169CE /* p59.csv */; };
+		5D65319B2C652537007169CE /* p61.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530CE2C652536007169CE /* p61.csv */; };
+		5D65319C2C652537007169CE /* p75.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530CF2C652536007169CE /* p75.csv */; };
+		5D65319D2C652537007169CE /* p49.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530D02C652536007169CE /* p49.csv */; };
+		5D65319E2C652537007169CE /* p100.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530D12C652536007169CE /* p100.csv */; };
+		5D65319F2C652537007169CE /* p101.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530D22C652536007169CE /* p101.csv */; };
+		5D6531A02C652537007169CE /* p48.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530D32C652536007169CE /* p48.csv */; };
+		5D6531A12C652537007169CE /* p74.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530D42C652536007169CE /* p74.csv */; };
+		5D6531A22C652537007169CE /* p60.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530D52C652536007169CE /* p60.csv */; };
+		5D6531A32C652537007169CE /* p89.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530D62C652536007169CE /* p89.csv */; };
+		5D6531A42C652537007169CE /* p76.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530D72C652536007169CE /* p76.csv */; };
+		5D6531A52C652537007169CE /* p62.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530D82C652536007169CE /* p62.csv */; };
+		5D6531A62C652537007169CE /* p103.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530D92C652536007169CE /* p103.csv */; };
+		5D6531A72C652537007169CE /* p102.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530DA2C652536007169CE /* p102.csv */; };
+		5D6531A82C652537007169CE /* p63.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530DB2C652536007169CE /* p63.csv */; };
+		5D6531A92C652537007169CE /* p77.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530DC2C652536007169CE /* p77.csv */; };
+		5D6531AA2C652537007169CE /* p88.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530DD2C652536007169CE /* p88.csv */; };
+		5D6531AB2C652537007169CE /* p38.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530DE2C652536007169CE /* p38.csv */; };
+		5D6531AC2C652537007169CE /* p10.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530DF2C652536007169CE /* p10.csv */; };
+		5D6531AD2C652537007169CE /* p11.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530E02C652536007169CE /* p11.csv */; };
+		5D6531AE2C652537007169CE /* p39.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530E12C652536007169CE /* p39.csv */; };
+		5D6531AF2C652537007169CE /* p13.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530E22C652536007169CE /* p13.csv */; };
+		5D6531B02C652537007169CE /* p12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530E32C652536007169CE /* p12.csv */; };
+		5D6531B12C652537007169CE /* p16.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530E42C652536007169CE /* p16.csv */; };
+		5D6531B22C652537007169CE /* p17.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530E52C652536007169CE /* p17.csv */; };
+		5D6531B32C652537007169CE /* p15.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530E62C652536007169CE /* p15.csv */; };
+		5D6531B42C652537007169CE /* p29.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530E72C652536007169CE /* p29.csv */; };
+		5D6531B52C652537007169CE /* p28.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530E82C652536007169CE /* p28.csv */; };
+		5D6531B62C652537007169CE /* p14.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530E92C652536007169CE /* p14.csv */; };
+		5D6531B72C652537007169CE /* p2-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530EB2C652536007169CE /* p2-en.txt */; };
+		5D6531B82C652537007169CE /* p93-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530EC2C652536007169CE /* p93-en.txt */; };
+		5D6531B92C652537007169CE /* p81-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530ED2C652536007169CE /* p81-en.txt */; };
+		5D6531BA2C652537007169CE /* p35-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530EE2C652536007169CE /* p35-en.txt */; };
+		5D6531BB2C652537007169CE /* p48-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530EF2C652536007169CE /* p48-en.txt */; };
+		5D6531BC2C652537007169CE /* p56-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530F02C652536007169CE /* p56-en.txt */; };
+		5D6531BD2C652537007169CE /* p27-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530F12C652536007169CE /* p27-en.txt */; };
+		5D6531BE2C652537007169CE /* p39-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530F22C652536007169CE /* p39-en.txt */; };
+		5D6531BF2C652537007169CE /* p44-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530F32C652536007169CE /* p44-en.txt */; };
+		5D6531C02C652537007169CE /* p11-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530F42C652536007169CE /* p11-en.txt */; };
+		5D6531C12C652537007169CE /* p72-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530F52C652536007169CE /* p72-en.txt */; };
+		5D6531C22C652537007169CE /* p60-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530F62C652536007169CE /* p60-en.txt */; };
+		5D6531C32C652537007169CE /* p46-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530F72C652536007169CE /* p46-en.txt */; };
+		5D6531C42C652537007169CE /* p25-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530F82C652536007169CE /* p25-en.txt */; };
+		5D6531C52C652537007169CE /* p58-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530F92C652536007169CE /* p58-en.txt */; };
+		5D6531C62C652537007169CE /* p29-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530FA2C652536007169CE /* p29-en.txt */; };
+		5D6531C72C652537007169CE /* p54-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530FB2C652536007169CE /* p54-en.txt */; };
+		5D6531C82C652537007169CE /* p37-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530FC2C652536007169CE /* p37-en.txt */; };
+		5D6531C92C652537007169CE /* p62-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530FD2C652536007169CE /* p62-en.txt */; };
+		5D6531CA2C652537007169CE /* p70-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530FE2C652536007169CE /* p70-en.txt */; };
+		5D6531CB2C652537007169CE /* p13-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530FF2C652536007169CE /* p13-en.txt */; };
+		5D6531CC2C652537007169CE /* p83-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531002C652536007169CE /* p83-en.txt */; };
+		5D6531CD2C652537007169CE /* p91-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531012C652536007169CE /* p91-en.txt */; };
+		5D6531CE2C652537007169CE /* p74-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531022C652536007169CE /* p74-en.txt */; };
+		5D6531CF2C652537007169CE /* p17-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531032C652536007169CE /* p17-en.txt */; };
+		5D6531D02C652537007169CE /* p66-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531042C652536007169CE /* p66-en.txt */; };
+		5D6531D12C652537007169CE /* p78-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531052C652536007169CE /* p78-en.txt */; };
+		5D6531D22C652537007169CE /* p50-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531062C652536007169CE /* p50-en.txt */; };
+		5D6531D32C652537007169CE /* p33-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531072C652536007169CE /* p33-en.txt */; };
+		5D6531D42C652537007169CE /* p42-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531082C652536007169CE /* p42-en.txt */; };
+		5D6531D52C652537007169CE /* p21-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531092C652536007169CE /* p21-en.txt */; };
+		5D6531D62C652537007169CE /* p95-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65310A2C652536007169CE /* p95-en.txt */; };
+		5D6531D72C652537007169CE /* p99-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65310B2C652536007169CE /* p99-en.txt */; };
+		5D6531D82C652537007169CE /* p87-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65310C2C652536007169CE /* p87-en.txt */; };
+		5D6531D92C652537007169CE /* p4-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65310D2C652536007169CE /* p4-en.txt */; };
+		5D6531DA2C652537007169CE /* p8-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65310E2C652536007169CE /* p8-en.txt */; };
+		5D6531DB2C652537007169CE /* p101-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65310F2C652536007169CE /* p101-en.txt */; };
+		5D6531DC2C652537007169CE /* p85-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531102C652536007169CE /* p85-en.txt */; };
+		5D6531DD2C652537007169CE /* p97-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531112C652536007169CE /* p97-en.txt */; };
+		5D6531DE2C652537007169CE /* p89-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531122C652536007169CE /* p89-en.txt */; };
+		5D6531DF2C652537007169CE /* p103-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531132C652536007169CE /* p103-en.txt */; };
+		5D6531E02C652537007169CE /* p6-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531142C652536007169CE /* p6-en.txt */; };
+		5D6531E12C652537007169CE /* p64-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531152C652536007169CE /* p64-en.txt */; };
+		5D6531E22C652537007169CE /* p19-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531162C652536007169CE /* p19-en.txt */; };
+		5D6531E32C652537007169CE /* p68-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531172C652536007169CE /* p68-en.txt */; };
+		5D6531E42C652537007169CE /* p15-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531182C652536007169CE /* p15-en.txt */; };
+		5D6531E52C652537007169CE /* p76-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531192C652536007169CE /* p76-en.txt */; };
+		5D6531E62C652537007169CE /* p23-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65311A2C652536007169CE /* p23-en.txt */; };
+		5D6531E72C652537007169CE /* p40-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65311B2C652536007169CE /* p40-en.txt */; };
+		5D6531E82C652537007169CE /* p31-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65311C2C652536007169CE /* p31-en.txt */; };
+		5D6531E92C652537007169CE /* p52-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65311D2C652536007169CE /* p52-en.txt */; };
+		5D6531EA2C652537007169CE /* p73-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65311E2C652536007169CE /* p73-en.txt */; };
+		5D6531EB2C652537007169CE /* p10-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65311F2C652536007169CE /* p10-en.txt */; };
+		5D6531EC2C652537007169CE /* p61-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531202C652536007169CE /* p61-en.txt */; };
+		5D6531ED2C652537007169CE /* p57-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531212C652536007169CE /* p57-en.txt */; };
+		5D6531EE2C652537007169CE /* p49-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531222C652536007169CE /* p49-en.txt */; };
+		5D6531EF2C652537007169CE /* p34-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531232C652536007169CE /* p34-en.txt */; };
+		5D6531F02C652537007169CE /* p45-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531242C652536007169CE /* p45-en.txt */; };
+		5D6531F12C652537007169CE /* p38-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531252C652536007169CE /* p38-en.txt */; };
+		5D6531F22C652537007169CE /* p26-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531262C652536007169CE /* p26-en.txt */; };
+		5D6531F32C652537007169CE /* p92-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531272C652536007169CE /* p92-en.txt */; };
+		5D6531F42C652537007169CE /* p80-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531282C652536007169CE /* p80-en.txt */; };
+		5D6531F52C652537007169CE /* p3-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531292C652536007169CE /* p3-en.txt */; };
+		5D6531F62C652537007169CE /* p82-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65312A2C652536007169CE /* p82-en.txt */; };
+		5D6531F72C652537007169CE /* p90-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65312B2C652536007169CE /* p90-en.txt */; };
+		5D6531F82C652537007169CE /* p63-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65312C2C652536007169CE /* p63-en.txt */; };
+		5D6531F92C652537007169CE /* p12-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65312D2C652536007169CE /* p12-en.txt */; };
+		5D6531FA2C652537007169CE /* p71-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65312E2C652536007169CE /* p71-en.txt */; };
+		5D6531FB2C652537007169CE /* p59-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65312F2C652536007169CE /* p59-en.txt */; };
+		5D6531FC2C652537007169CE /* p24-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531302C652536007169CE /* p24-en.txt */; };
+		5D6531FD2C652537007169CE /* p47-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531312C652536007169CE /* p47-en.txt */; };
+		5D6531FE2C652537007169CE /* p36-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531322C652536007169CE /* p36-en.txt */; };
+		5D6531FF2C652537007169CE /* p55-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531332C652536007169CE /* p55-en.txt */; };
+		5D6532002C652537007169CE /* p28-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531342C652536007169CE /* p28-en.txt */; };
+		5D6532012C652537007169CE /* p5-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531352C652536007169CE /* p5-en.txt */; };
+		5D6532022C652537007169CE /* p100-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531362C652536007169CE /* p100-en.txt */; };
+		5D6532032C652537007169CE /* p9-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531372C652536007169CE /* p9-en.txt */; };
+		5D6532042C652537007169CE /* p94-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531382C652536007169CE /* p94-en.txt */; };
+		5D6532052C652537007169CE /* p86-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531392C652536007169CE /* p86-en.txt */; };
+		5D6532062C652537007169CE /* p98-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65313A2C652536007169CE /* p98-en.txt */; };
+		5D6532072C652537007169CE /* p32-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65313B2C652536007169CE /* p32-en.txt */; };
+		5D6532082C652537007169CE /* p51-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65313C2C652536007169CE /* p51-en.txt */; };
+		5D6532092C652537007169CE /* p20-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65313D2C652536007169CE /* p20-en.txt */; };
+		5D65320A2C652537007169CE /* p43-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65313E2C652536007169CE /* p43-en.txt */; };
+		5D65320B2C652537007169CE /* p16-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65313F2C652536007169CE /* p16-en.txt */; };
+		5D65320C2C652537007169CE /* p75-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531402C652536007169CE /* p75-en.txt */; };
+		5D65320D2C652537007169CE /* p79-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531412C652536007169CE /* p79-en.txt */; };
+		5D65320E2C652537007169CE /* p67-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531422C652536007169CE /* p67-en.txt */; };
+		5D65320F2C652537007169CE /* p41-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531432C652536007169CE /* p41-en.txt */; };
+		5D6532102C652537007169CE /* p22-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531442C652536007169CE /* p22-en.txt */; };
+		5D6532112C652537007169CE /* p53-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531452C652536007169CE /* p53-en.txt */; };
+		5D6532122C652537007169CE /* p30-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531462C652536007169CE /* p30-en.txt */; };
+		5D6532132C652537007169CE /* p18-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531472C652536007169CE /* p18-en.txt */; };
+		5D6532142C652537007169CE /* p65-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531482C652536007169CE /* p65-en.txt */; };
+		5D6532152C652537007169CE /* p77-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531492C652536007169CE /* p77-en.txt */; };
+		5D6532162C652537007169CE /* p14-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65314A2C652536007169CE /* p14-en.txt */; };
+		5D6532172C652537007169CE /* p69-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65314B2C652536007169CE /* p69-en.txt */; };
+		5D6532182C652537007169CE /* p102-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65314C2C652536007169CE /* p102-en.txt */; };
+		5D6532192C652537007169CE /* p7-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65314D2C652536007169CE /* p7-en.txt */; };
+		5D65321A2C652537007169CE /* p84-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65314E2C652536007169CE /* p84-en.txt */; };
+		5D65321B2C652537007169CE /* p88-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D65314F2C652536007169CE /* p88-en.txt */; };
+		5D65321C2C652537007169CE /* p96-en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6531502C652536007169CE /* p96-en.txt */; };
 		5DAF8EBB2C62ADA200B41F0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF8EBA2C62ADA200B41F0A /* Constants.swift */; };
 		5DAF8EBD2C62ADB000B41F0A /* UserDefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF8EBC2C62ADB000B41F0A /* UserDefaultsUtils.swift */; };
 		5DAF8EC02C62ADE200B41F0A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF8EBF2C62ADE200B41F0A /* Color.swift */; };
@@ -170,108 +272,210 @@
 		5D37DDC32C646A1E0099C54E /* LangManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangManager.swift; sourceTree = "<group>"; };
 		5D37DDC52C646A520099C54E /* Lang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lang.swift; sourceTree = "<group>"; };
 		5D37DDCB2C6476710099C54E /* LangFileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangFileLoader.swift; sourceTree = "<group>"; };
-		5D37DDCD2C647E040099C54E /* p85-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p85-en.csv"; sourceTree = "<group>"; };
-		5D37DDCE2C647E040099C54E /* p17-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p17-en.csv"; sourceTree = "<group>"; };
-		5D37DDCF2C647E040099C54E /* p75-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p75-en.csv"; sourceTree = "<group>"; };
-		5D37DDD02C647E040099C54E /* p31-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p31-en.csv"; sourceTree = "<group>"; };
-		5D37DDD12C647E040099C54E /* p30-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p30-en.csv"; sourceTree = "<group>"; };
-		5D37DDD22C647E040099C54E /* p101-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p101-en.csv"; sourceTree = "<group>"; };
-		5D37DDD32C647E040099C54E /* p59-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p59-en.csv"; sourceTree = "<group>"; };
-		5D37DDD42C647E040099C54E /* p70-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p70-en.csv"; sourceTree = "<group>"; };
-		5D37DDD52C647E040099C54E /* p79-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p79-en.csv"; sourceTree = "<group>"; };
-		5D37DDD62C647E040099C54E /* p50-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p50-en.csv"; sourceTree = "<group>"; };
-		5D37DDD72C647E040099C54E /* p74-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p74-en.csv"; sourceTree = "<group>"; };
-		5D37DDD82C647E040099C54E /* p67-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p67-en.csv"; sourceTree = "<group>"; };
-		5D37DDD92C647E050099C54E /* p40-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p40-en.csv"; sourceTree = "<group>"; };
-		5D37DDDA2C647E050099C54E /* p94-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p94-en.csv"; sourceTree = "<group>"; };
-		5D37DDDB2C647E050099C54E /* p26-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p26-en.csv"; sourceTree = "<group>"; };
-		5D37DDDC2C647E050099C54E /* p68-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p68-en.csv"; sourceTree = "<group>"; };
-		5D37DDDD2C647E050099C54E /* p51-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p51-en.csv"; sourceTree = "<group>"; };
-		5D37DDDE2C647E050099C54E /* p24-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p24-en.csv"; sourceTree = "<group>"; };
-		5D37DDDF2C647E050099C54E /* p95-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p95-en.csv"; sourceTree = "<group>"; };
-		5D37DDE02C647E050099C54E /* p60-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p60-en.csv"; sourceTree = "<group>"; };
-		5D37DDE12C647E050099C54E /* p71-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p71-en.csv"; sourceTree = "<group>"; };
-		5D37DDE22C647E050099C54E /* p83-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p83-en.csv"; sourceTree = "<group>"; };
-		5D37DDE32C647E050099C54E /* p18-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p18-en.csv"; sourceTree = "<group>"; };
-		5D37DDE42C647E050099C54E /* p14-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p14-en.csv"; sourceTree = "<group>"; };
-		5D37DDE52C647E050099C54E /* p32-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p32-en.csv"; sourceTree = "<group>"; };
-		5D37DDE62C647E050099C54E /* p100-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p100-en.csv"; sourceTree = "<group>"; };
-		5D37DDE72C647E050099C54E /* p97-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p97-en.csv"; sourceTree = "<group>"; };
-		5D37DDE82C647E050099C54E /* p63-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p63-en.csv"; sourceTree = "<group>"; };
-		5D37DDE92C647E050099C54E /* p25-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p25-en.csv"; sourceTree = "<group>"; };
-		5D37DDEA2C647E050099C54E /* p54-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p54-en.csv"; sourceTree = "<group>"; };
-		5D37DDEB2C647E050099C54E /* p76-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p76-en.csv"; sourceTree = "<group>"; };
-		5D37DDEC2C647E050099C54E /* p69-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p69-en.csv"; sourceTree = "<group>"; };
-		5D37DDED2C647E050099C54E /* p38-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p38-en.csv"; sourceTree = "<group>"; };
-		5D37DDEE2C647E050099C54E /* p102-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p102-en.csv"; sourceTree = "<group>"; };
-		5D37DDEF2C647E060099C54E /* p86-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p86-en.csv"; sourceTree = "<group>"; };
-		5D37DDF02C647E060099C54E /* p46-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p46-en.csv"; sourceTree = "<group>"; };
-		5D37DDF12C647E060099C54E /* p7-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p7-en.csv"; sourceTree = "<group>"; };
-		5D37DDF22C647E060099C54E /* p21-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p21-en.csv"; sourceTree = "<group>"; };
-		5D37DDF32C647E060099C54E /* p28-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p28-en.csv"; sourceTree = "<group>"; };
-		5D37DDF42C647E060099C54E /* p91-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p91-en.csv"; sourceTree = "<group>"; };
-		5D37DDF52C647E060099C54E /* p96-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p96-en.csv"; sourceTree = "<group>"; };
-		5D37DDF62C647E060099C54E /* p73-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p73-en.csv"; sourceTree = "<group>"; };
-		5D37DDF72C647E060099C54E /* p15-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p15-en.csv"; sourceTree = "<group>"; };
-		5D37DDF82C647E060099C54E /* p5-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p5-en.csv"; sourceTree = "<group>"; };
-		5D37DDF92C647E060099C54E /* p52-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p52-en.csv"; sourceTree = "<group>"; };
-		5D37DDFA2C647E060099C54E /* p2-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p2-en.csv"; sourceTree = "<group>"; };
-		5D37DDFB2C647E060099C54E /* p35-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p35-en.csv"; sourceTree = "<group>"; };
-		5D37DDFC2C647E060099C54E /* p20-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p20-en.csv"; sourceTree = "<group>"; };
-		5D37DDFD2C647E060099C54E /* p58-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p58-en.csv"; sourceTree = "<group>"; };
-		5D37DDFE2C647E060099C54E /* p61-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p61-en.csv"; sourceTree = "<group>"; };
-		5D37DDFF2C647E060099C54E /* p65-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p65-en.csv"; sourceTree = "<group>"; };
-		5D37DE002C647E060099C54E /* p9-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p9-en.csv"; sourceTree = "<group>"; };
-		5D37DE012C647E060099C54E /* p88-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p88-en.csv"; sourceTree = "<group>"; };
-		5D37DE022C647E060099C54E /* p3-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p3-en.csv"; sourceTree = "<group>"; };
-		5D37DE032C647E060099C54E /* p80-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p80-en.csv"; sourceTree = "<group>"; };
-		5D37DE042C647E060099C54E /* p33-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p33-en.csv"; sourceTree = "<group>"; };
-		5D37DE052C647E060099C54E /* p92-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p92-en.csv"; sourceTree = "<group>"; };
-		5D37DE062C647E070099C54E /* p43-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p43-en.csv"; sourceTree = "<group>"; };
-		5D37DE072C647E070099C54E /* p12-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p12-en.csv"; sourceTree = "<group>"; };
-		5D37DE082C647E070099C54E /* p41-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p41-en.csv"; sourceTree = "<group>"; };
-		5D37DE092C647E070099C54E /* p45-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p45-en.csv"; sourceTree = "<group>"; };
-		5D37DE0A2C647E070099C54E /* p8-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p8-en.csv"; sourceTree = "<group>"; };
-		5D37DE0B2C647E070099C54E /* p64-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p64-en.csv"; sourceTree = "<group>"; };
-		5D37DE0C2C647E070099C54E /* p93-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p93-en.csv"; sourceTree = "<group>"; };
-		5D37DE0D2C647E070099C54E /* p47-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p47-en.csv"; sourceTree = "<group>"; };
-		5D37DE0E2C647E070099C54E /* p62-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p62-en.csv"; sourceTree = "<group>"; };
-		5D37DE0F2C647E070099C54E /* p48-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p48-en.csv"; sourceTree = "<group>"; };
-		5D37DE102C647E070099C54E /* p98-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p98-en.csv"; sourceTree = "<group>"; };
-		5D37DE112C647E070099C54E /* p36-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p36-en.csv"; sourceTree = "<group>"; };
-		5D37DE122C647E070099C54E /* p72-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p72-en.csv"; sourceTree = "<group>"; };
-		5D37DE132C647E070099C54E /* p53-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p53-en.csv"; sourceTree = "<group>"; };
-		5D37DE142C647E070099C54E /* p34-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p34-en.csv"; sourceTree = "<group>"; };
-		5D37DE152C647E070099C54E /* p84-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p84-en.csv"; sourceTree = "<group>"; };
-		5D37DE162C647E070099C54E /* p55-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p55-en.csv"; sourceTree = "<group>"; };
-		5D37DE172C647E070099C54E /* p16-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p16-en.csv"; sourceTree = "<group>"; };
-		5D37DE182C647E070099C54E /* p27-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p27-en.csv"; sourceTree = "<group>"; };
-		5D37DE192C647E070099C54E /* p29-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p29-en.csv"; sourceTree = "<group>"; };
-		5D37DE1A2C647E070099C54E /* p42-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p42-en.csv"; sourceTree = "<group>"; };
-		5D37DE1B2C647E070099C54E /* p44-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p44-en.csv"; sourceTree = "<group>"; };
-		5D37DE1C2C647E070099C54E /* p81-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p81-en.csv"; sourceTree = "<group>"; };
-		5D37DE1D2C647E080099C54E /* p10-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p10-en.csv"; sourceTree = "<group>"; };
-		5D37DE1E2C647E080099C54E /* p99-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p99-en.csv"; sourceTree = "<group>"; };
-		5D37DE1F2C647E080099C54E /* p6-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p6-en.csv"; sourceTree = "<group>"; };
-		5D37DE202C647E080099C54E /* p87-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p87-en.csv"; sourceTree = "<group>"; };
-		5D37DE212C647E080099C54E /* p77-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p77-en.csv"; sourceTree = "<group>"; };
-		5D37DE222C647E080099C54E /* p82-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p82-en.csv"; sourceTree = "<group>"; };
-		5D37DE232C647E080099C54E /* p57-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p57-en.csv"; sourceTree = "<group>"; };
-		5D37DE242C647E080099C54E /* p56-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p56-en.csv"; sourceTree = "<group>"; };
-		5D37DE252C647E080099C54E /* p13-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p13-en.csv"; sourceTree = "<group>"; };
-		5D37DE262C647E080099C54E /* p90-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p90-en.csv"; sourceTree = "<group>"; };
-		5D37DE272C647E080099C54E /* p89-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p89-en.csv"; sourceTree = "<group>"; };
-		5D37DE282C647E080099C54E /* p39-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p39-en.csv"; sourceTree = "<group>"; };
-		5D37DE292C647E080099C54E /* p4-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p4-en.csv"; sourceTree = "<group>"; };
-		5D37DE2A2C647E080099C54E /* p22-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p22-en.csv"; sourceTree = "<group>"; };
-		5D37DE2B2C647E080099C54E /* p49-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p49-en.csv"; sourceTree = "<group>"; };
-		5D37DE2C2C647E080099C54E /* p37-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p37-en.csv"; sourceTree = "<group>"; };
-		5D37DE2D2C647E080099C54E /* p11-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p11-en.csv"; sourceTree = "<group>"; };
-		5D37DE2E2C647E080099C54E /* p66-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p66-en.csv"; sourceTree = "<group>"; };
-		5D37DE2F2C647E080099C54E /* p19-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p19-en.csv"; sourceTree = "<group>"; };
-		5D37DE302C647E080099C54E /* p78-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p78-en.csv"; sourceTree = "<group>"; };
-		5D37DE312C647E080099C54E /* p23-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p23-en.csv"; sourceTree = "<group>"; };
-		5D37DE322C647E080099C54E /* p103-en.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p103-en.csv"; sourceTree = "<group>"; };
+		5D6530842C652536007169CE /* p19.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p19.csv; sourceTree = "<group>"; };
+		5D6530852C652536007169CE /* p31.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p31.csv; sourceTree = "<group>"; };
+		5D6530862C652536007169CE /* p25.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p25.csv; sourceTree = "<group>"; };
+		5D6530872C652536007169CE /* p24.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p24.csv; sourceTree = "<group>"; };
+		5D6530882C652536007169CE /* p30.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p30.csv; sourceTree = "<group>"; };
+		5D6530892C652536007169CE /* p18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p18.csv; sourceTree = "<group>"; };
+		5D65308A2C652536007169CE /* p26.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p26.csv; sourceTree = "<group>"; };
+		5D65308B2C652536007169CE /* p32.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p32.csv; sourceTree = "<group>"; };
+		5D65308C2C652536007169CE /* p33.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p33.csv; sourceTree = "<group>"; };
+		5D65308D2C652536007169CE /* p27.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p27.csv; sourceTree = "<group>"; };
+		5D65308E2C652536007169CE /* p23.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p23.csv; sourceTree = "<group>"; };
+		5D65308F2C652536007169CE /* p37.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p37.csv; sourceTree = "<group>"; };
+		5D6530902C652536007169CE /* p36.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p36.csv; sourceTree = "<group>"; };
+		5D6530912C652536007169CE /* p22.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p22.csv; sourceTree = "<group>"; };
+		5D6530922C652536007169CE /* p34.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p34.csv; sourceTree = "<group>"; };
+		5D6530932C652536007169CE /* p20.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p20.csv; sourceTree = "<group>"; };
+		5D6530942C652536007169CE /* p21.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p21.csv; sourceTree = "<group>"; };
+		5D6530952C652536007169CE /* p35.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p35.csv; sourceTree = "<group>"; };
+		5D6530962C652536007169CE /* p91.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p91.csv; sourceTree = "<group>"; };
+		5D6530972C652536007169CE /* p85.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p85.csv; sourceTree = "<group>"; };
+		5D6530982C652536007169CE /* p52.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p52.csv; sourceTree = "<group>"; };
+		5D6530992C652536007169CE /* p46.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p46.csv; sourceTree = "<group>"; };
+		5D65309A2C652536007169CE /* p47.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p47.csv; sourceTree = "<group>"; };
+		5D65309B2C652536007169CE /* p53.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p53.csv; sourceTree = "<group>"; };
+		5D65309C2C652536007169CE /* p84.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p84.csv; sourceTree = "<group>"; };
+		5D65309D2C652536007169CE /* p90.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p90.csv; sourceTree = "<group>"; };
+		5D65309E2C652536007169CE /* p86.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p86.csv; sourceTree = "<group>"; };
+		5D65309F2C652536007169CE /* p92.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p92.csv; sourceTree = "<group>"; };
+		5D6530A02C652536007169CE /* p79.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p79.csv; sourceTree = "<group>"; };
+		5D6530A12C652536007169CE /* p45.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p45.csv; sourceTree = "<group>"; };
+		5D6530A22C652536007169CE /* p51.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p51.csv; sourceTree = "<group>"; };
+		5D6530A32C652536007169CE /* p2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p2.csv; sourceTree = "<group>"; };
+		5D6530A42C652536007169CE /* p3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p3.csv; sourceTree = "<group>"; };
+		5D6530A52C652536007169CE /* p50.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p50.csv; sourceTree = "<group>"; };
+		5D6530A62C652536007169CE /* p44.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p44.csv; sourceTree = "<group>"; };
+		5D6530A72C652536007169CE /* p78.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p78.csv; sourceTree = "<group>"; };
+		5D6530A82C652536007169CE /* p93.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p93.csv; sourceTree = "<group>"; };
+		5D6530A92C652536007169CE /* p87.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p87.csv; sourceTree = "<group>"; };
+		5D6530AA2C652536007169CE /* p83.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p83.csv; sourceTree = "<group>"; };
+		5D6530AB2C652536007169CE /* p97.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p97.csv; sourceTree = "<group>"; };
+		5D6530AC2C652536007169CE /* p40.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p40.csv; sourceTree = "<group>"; };
+		5D6530AD2C652536007169CE /* p54.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p54.csv; sourceTree = "<group>"; };
+		5D6530AE2C652536007169CE /* p68.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p68.csv; sourceTree = "<group>"; };
+		5D6530AF2C652536007169CE /* p7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p7.csv; sourceTree = "<group>"; };
+		5D6530B02C652536007169CE /* p6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p6.csv; sourceTree = "<group>"; };
+		5D6530B12C652536007169CE /* p69.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p69.csv; sourceTree = "<group>"; };
+		5D6530B22C652536007169CE /* p55.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p55.csv; sourceTree = "<group>"; };
+		5D6530B32C652536007169CE /* p41.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p41.csv; sourceTree = "<group>"; };
+		5D6530B42C652536007169CE /* p96.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p96.csv; sourceTree = "<group>"; };
+		5D6530B52C652536007169CE /* p82.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p82.csv; sourceTree = "<group>"; };
+		5D6530B62C652536007169CE /* p94.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p94.csv; sourceTree = "<group>"; };
+		5D6530B72C652536007169CE /* p80.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p80.csv; sourceTree = "<group>"; };
+		5D6530B82C652536007169CE /* p57.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p57.csv; sourceTree = "<group>"; };
+		5D6530B92C652536007169CE /* p43.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p43.csv; sourceTree = "<group>"; };
+		5D6530BA2C652536007169CE /* p4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p4.csv; sourceTree = "<group>"; };
+		5D6530BB2C652536007169CE /* p5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p5.csv; sourceTree = "<group>"; };
+		5D6530BC2C652536007169CE /* p42.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p42.csv; sourceTree = "<group>"; };
+		5D6530BD2C652536007169CE /* p56.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p56.csv; sourceTree = "<group>"; };
+		5D6530BE2C652536007169CE /* p81.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p81.csv; sourceTree = "<group>"; };
+		5D6530BF2C652536007169CE /* p95.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p95.csv; sourceTree = "<group>"; };
+		5D6530C02C652536007169CE /* p98.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p98.csv; sourceTree = "<group>"; };
+		5D6530C12C652536007169CE /* p73.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p73.csv; sourceTree = "<group>"; };
+		5D6530C22C652536007169CE /* p67.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p67.csv; sourceTree = "<group>"; };
+		5D6530C32C652536007169CE /* p8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p8.csv; sourceTree = "<group>"; };
+		5D6530C42C652536007169CE /* p9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p9.csv; sourceTree = "<group>"; };
+		5D6530C52C652536007169CE /* p66.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p66.csv; sourceTree = "<group>"; };
+		5D6530C62C652536007169CE /* p72.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p72.csv; sourceTree = "<group>"; };
+		5D6530C72C652536007169CE /* p99.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p99.csv; sourceTree = "<group>"; };
+		5D6530C82C652536007169CE /* p58.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p58.csv; sourceTree = "<group>"; };
+		5D6530C92C652536007169CE /* p64.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p64.csv; sourceTree = "<group>"; };
+		5D6530CA2C652536007169CE /* p70.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p70.csv; sourceTree = "<group>"; };
+		5D6530CB2C652536007169CE /* p71.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p71.csv; sourceTree = "<group>"; };
+		5D6530CC2C652536007169CE /* p65.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p65.csv; sourceTree = "<group>"; };
+		5D6530CD2C652536007169CE /* p59.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p59.csv; sourceTree = "<group>"; };
+		5D6530CE2C652536007169CE /* p61.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p61.csv; sourceTree = "<group>"; };
+		5D6530CF2C652536007169CE /* p75.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p75.csv; sourceTree = "<group>"; };
+		5D6530D02C652536007169CE /* p49.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p49.csv; sourceTree = "<group>"; };
+		5D6530D12C652536007169CE /* p100.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p100.csv; sourceTree = "<group>"; };
+		5D6530D22C652536007169CE /* p101.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p101.csv; sourceTree = "<group>"; };
+		5D6530D32C652536007169CE /* p48.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p48.csv; sourceTree = "<group>"; };
+		5D6530D42C652536007169CE /* p74.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p74.csv; sourceTree = "<group>"; };
+		5D6530D52C652536007169CE /* p60.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p60.csv; sourceTree = "<group>"; };
+		5D6530D62C652536007169CE /* p89.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p89.csv; sourceTree = "<group>"; };
+		5D6530D72C652536007169CE /* p76.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p76.csv; sourceTree = "<group>"; };
+		5D6530D82C652536007169CE /* p62.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p62.csv; sourceTree = "<group>"; };
+		5D6530D92C652536007169CE /* p103.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p103.csv; sourceTree = "<group>"; };
+		5D6530DA2C652536007169CE /* p102.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p102.csv; sourceTree = "<group>"; };
+		5D6530DB2C652536007169CE /* p63.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p63.csv; sourceTree = "<group>"; };
+		5D6530DC2C652536007169CE /* p77.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p77.csv; sourceTree = "<group>"; };
+		5D6530DD2C652536007169CE /* p88.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p88.csv; sourceTree = "<group>"; };
+		5D6530DE2C652536007169CE /* p38.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p38.csv; sourceTree = "<group>"; };
+		5D6530DF2C652536007169CE /* p10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p10.csv; sourceTree = "<group>"; };
+		5D6530E02C652536007169CE /* p11.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p11.csv; sourceTree = "<group>"; };
+		5D6530E12C652536007169CE /* p39.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p39.csv; sourceTree = "<group>"; };
+		5D6530E22C652536007169CE /* p13.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p13.csv; sourceTree = "<group>"; };
+		5D6530E32C652536007169CE /* p12.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p12.csv; sourceTree = "<group>"; };
+		5D6530E42C652536007169CE /* p16.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p16.csv; sourceTree = "<group>"; };
+		5D6530E52C652536007169CE /* p17.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p17.csv; sourceTree = "<group>"; };
+		5D6530E62C652536007169CE /* p15.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p15.csv; sourceTree = "<group>"; };
+		5D6530E72C652536007169CE /* p29.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p29.csv; sourceTree = "<group>"; };
+		5D6530E82C652536007169CE /* p28.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p28.csv; sourceTree = "<group>"; };
+		5D6530E92C652536007169CE /* p14.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p14.csv; sourceTree = "<group>"; };
+		5D6530EB2C652536007169CE /* p2-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p2-en.txt"; sourceTree = "<group>"; };
+		5D6530EC2C652536007169CE /* p93-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p93-en.txt"; sourceTree = "<group>"; };
+		5D6530ED2C652536007169CE /* p81-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p81-en.txt"; sourceTree = "<group>"; };
+		5D6530EE2C652536007169CE /* p35-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p35-en.txt"; sourceTree = "<group>"; };
+		5D6530EF2C652536007169CE /* p48-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p48-en.txt"; sourceTree = "<group>"; };
+		5D6530F02C652536007169CE /* p56-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p56-en.txt"; sourceTree = "<group>"; };
+		5D6530F12C652536007169CE /* p27-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p27-en.txt"; sourceTree = "<group>"; };
+		5D6530F22C652536007169CE /* p39-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p39-en.txt"; sourceTree = "<group>"; };
+		5D6530F32C652536007169CE /* p44-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p44-en.txt"; sourceTree = "<group>"; };
+		5D6530F42C652536007169CE /* p11-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p11-en.txt"; sourceTree = "<group>"; };
+		5D6530F52C652536007169CE /* p72-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p72-en.txt"; sourceTree = "<group>"; };
+		5D6530F62C652536007169CE /* p60-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p60-en.txt"; sourceTree = "<group>"; };
+		5D6530F72C652536007169CE /* p46-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p46-en.txt"; sourceTree = "<group>"; };
+		5D6530F82C652536007169CE /* p25-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p25-en.txt"; sourceTree = "<group>"; };
+		5D6530F92C652536007169CE /* p58-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p58-en.txt"; sourceTree = "<group>"; };
+		5D6530FA2C652536007169CE /* p29-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p29-en.txt"; sourceTree = "<group>"; };
+		5D6530FB2C652536007169CE /* p54-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p54-en.txt"; sourceTree = "<group>"; };
+		5D6530FC2C652536007169CE /* p37-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p37-en.txt"; sourceTree = "<group>"; };
+		5D6530FD2C652536007169CE /* p62-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p62-en.txt"; sourceTree = "<group>"; };
+		5D6530FE2C652536007169CE /* p70-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p70-en.txt"; sourceTree = "<group>"; };
+		5D6530FF2C652536007169CE /* p13-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p13-en.txt"; sourceTree = "<group>"; };
+		5D6531002C652536007169CE /* p83-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p83-en.txt"; sourceTree = "<group>"; };
+		5D6531012C652536007169CE /* p91-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p91-en.txt"; sourceTree = "<group>"; };
+		5D6531022C652536007169CE /* p74-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p74-en.txt"; sourceTree = "<group>"; };
+		5D6531032C652536007169CE /* p17-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p17-en.txt"; sourceTree = "<group>"; };
+		5D6531042C652536007169CE /* p66-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p66-en.txt"; sourceTree = "<group>"; };
+		5D6531052C652536007169CE /* p78-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p78-en.txt"; sourceTree = "<group>"; };
+		5D6531062C652536007169CE /* p50-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p50-en.txt"; sourceTree = "<group>"; };
+		5D6531072C652536007169CE /* p33-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p33-en.txt"; sourceTree = "<group>"; };
+		5D6531082C652536007169CE /* p42-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p42-en.txt"; sourceTree = "<group>"; };
+		5D6531092C652536007169CE /* p21-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p21-en.txt"; sourceTree = "<group>"; };
+		5D65310A2C652536007169CE /* p95-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p95-en.txt"; sourceTree = "<group>"; };
+		5D65310B2C652536007169CE /* p99-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p99-en.txt"; sourceTree = "<group>"; };
+		5D65310C2C652536007169CE /* p87-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p87-en.txt"; sourceTree = "<group>"; };
+		5D65310D2C652536007169CE /* p4-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p4-en.txt"; sourceTree = "<group>"; };
+		5D65310E2C652536007169CE /* p8-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p8-en.txt"; sourceTree = "<group>"; };
+		5D65310F2C652536007169CE /* p101-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p101-en.txt"; sourceTree = "<group>"; };
+		5D6531102C652536007169CE /* p85-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p85-en.txt"; sourceTree = "<group>"; };
+		5D6531112C652536007169CE /* p97-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p97-en.txt"; sourceTree = "<group>"; };
+		5D6531122C652536007169CE /* p89-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p89-en.txt"; sourceTree = "<group>"; };
+		5D6531132C652536007169CE /* p103-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p103-en.txt"; sourceTree = "<group>"; };
+		5D6531142C652536007169CE /* p6-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p6-en.txt"; sourceTree = "<group>"; };
+		5D6531152C652536007169CE /* p64-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p64-en.txt"; sourceTree = "<group>"; };
+		5D6531162C652536007169CE /* p19-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p19-en.txt"; sourceTree = "<group>"; };
+		5D6531172C652536007169CE /* p68-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p68-en.txt"; sourceTree = "<group>"; };
+		5D6531182C652536007169CE /* p15-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p15-en.txt"; sourceTree = "<group>"; };
+		5D6531192C652536007169CE /* p76-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p76-en.txt"; sourceTree = "<group>"; };
+		5D65311A2C652536007169CE /* p23-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p23-en.txt"; sourceTree = "<group>"; };
+		5D65311B2C652536007169CE /* p40-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p40-en.txt"; sourceTree = "<group>"; };
+		5D65311C2C652536007169CE /* p31-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p31-en.txt"; sourceTree = "<group>"; };
+		5D65311D2C652536007169CE /* p52-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p52-en.txt"; sourceTree = "<group>"; };
+		5D65311E2C652536007169CE /* p73-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p73-en.txt"; sourceTree = "<group>"; };
+		5D65311F2C652536007169CE /* p10-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p10-en.txt"; sourceTree = "<group>"; };
+		5D6531202C652536007169CE /* p61-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p61-en.txt"; sourceTree = "<group>"; };
+		5D6531212C652536007169CE /* p57-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p57-en.txt"; sourceTree = "<group>"; };
+		5D6531222C652536007169CE /* p49-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p49-en.txt"; sourceTree = "<group>"; };
+		5D6531232C652536007169CE /* p34-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p34-en.txt"; sourceTree = "<group>"; };
+		5D6531242C652536007169CE /* p45-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p45-en.txt"; sourceTree = "<group>"; };
+		5D6531252C652536007169CE /* p38-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p38-en.txt"; sourceTree = "<group>"; };
+		5D6531262C652536007169CE /* p26-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p26-en.txt"; sourceTree = "<group>"; };
+		5D6531272C652536007169CE /* p92-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p92-en.txt"; sourceTree = "<group>"; };
+		5D6531282C652536007169CE /* p80-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p80-en.txt"; sourceTree = "<group>"; };
+		5D6531292C652536007169CE /* p3-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p3-en.txt"; sourceTree = "<group>"; };
+		5D65312A2C652536007169CE /* p82-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p82-en.txt"; sourceTree = "<group>"; };
+		5D65312B2C652536007169CE /* p90-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p90-en.txt"; sourceTree = "<group>"; };
+		5D65312C2C652536007169CE /* p63-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p63-en.txt"; sourceTree = "<group>"; };
+		5D65312D2C652536007169CE /* p12-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p12-en.txt"; sourceTree = "<group>"; };
+		5D65312E2C652536007169CE /* p71-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p71-en.txt"; sourceTree = "<group>"; };
+		5D65312F2C652536007169CE /* p59-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p59-en.txt"; sourceTree = "<group>"; };
+		5D6531302C652536007169CE /* p24-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p24-en.txt"; sourceTree = "<group>"; };
+		5D6531312C652536007169CE /* p47-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p47-en.txt"; sourceTree = "<group>"; };
+		5D6531322C652536007169CE /* p36-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p36-en.txt"; sourceTree = "<group>"; };
+		5D6531332C652536007169CE /* p55-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p55-en.txt"; sourceTree = "<group>"; };
+		5D6531342C652536007169CE /* p28-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p28-en.txt"; sourceTree = "<group>"; };
+		5D6531352C652536007169CE /* p5-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p5-en.txt"; sourceTree = "<group>"; };
+		5D6531362C652536007169CE /* p100-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p100-en.txt"; sourceTree = "<group>"; };
+		5D6531372C652536007169CE /* p9-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p9-en.txt"; sourceTree = "<group>"; };
+		5D6531382C652536007169CE /* p94-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p94-en.txt"; sourceTree = "<group>"; };
+		5D6531392C652536007169CE /* p86-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p86-en.txt"; sourceTree = "<group>"; };
+		5D65313A2C652536007169CE /* p98-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p98-en.txt"; sourceTree = "<group>"; };
+		5D65313B2C652536007169CE /* p32-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p32-en.txt"; sourceTree = "<group>"; };
+		5D65313C2C652536007169CE /* p51-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p51-en.txt"; sourceTree = "<group>"; };
+		5D65313D2C652536007169CE /* p20-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p20-en.txt"; sourceTree = "<group>"; };
+		5D65313E2C652536007169CE /* p43-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p43-en.txt"; sourceTree = "<group>"; };
+		5D65313F2C652536007169CE /* p16-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p16-en.txt"; sourceTree = "<group>"; };
+		5D6531402C652536007169CE /* p75-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p75-en.txt"; sourceTree = "<group>"; };
+		5D6531412C652536007169CE /* p79-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p79-en.txt"; sourceTree = "<group>"; };
+		5D6531422C652536007169CE /* p67-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p67-en.txt"; sourceTree = "<group>"; };
+		5D6531432C652536007169CE /* p41-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p41-en.txt"; sourceTree = "<group>"; };
+		5D6531442C652536007169CE /* p22-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p22-en.txt"; sourceTree = "<group>"; };
+		5D6531452C652536007169CE /* p53-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p53-en.txt"; sourceTree = "<group>"; };
+		5D6531462C652536007169CE /* p30-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p30-en.txt"; sourceTree = "<group>"; };
+		5D6531472C652536007169CE /* p18-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p18-en.txt"; sourceTree = "<group>"; };
+		5D6531482C652536007169CE /* p65-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p65-en.txt"; sourceTree = "<group>"; };
+		5D6531492C652536007169CE /* p77-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p77-en.txt"; sourceTree = "<group>"; };
+		5D65314A2C652536007169CE /* p14-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p14-en.txt"; sourceTree = "<group>"; };
+		5D65314B2C652536007169CE /* p69-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p69-en.txt"; sourceTree = "<group>"; };
+		5D65314C2C652536007169CE /* p102-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p102-en.txt"; sourceTree = "<group>"; };
+		5D65314D2C652536007169CE /* p7-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p7-en.txt"; sourceTree = "<group>"; };
+		5D65314E2C652536007169CE /* p84-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p84-en.txt"; sourceTree = "<group>"; };
+		5D65314F2C652536007169CE /* p88-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p88-en.txt"; sourceTree = "<group>"; };
+		5D6531502C652536007169CE /* p96-en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p96-en.txt"; sourceTree = "<group>"; };
 		5DAF8EBA2C62ADA200B41F0A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5DAF8EBC2C62ADB000B41F0A /* UserDefaultsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtils.swift; sourceTree = "<group>"; };
 		5DAF8EBF2C62ADE200B41F0A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -347,7 +551,8 @@
 				5DAF8EB92C62AD9000B41F0A /* utils */,
 				5D1296DA2C55B05D00A9D40D /* Preview Content */,
 				5D37DDCA2C6474DF0099C54E /* Language */,
-				5D1297062C55C32600A9D40D /* Words */,
+				5D6530EA2C652536007169CE /* Word-en */,
+				5D6530832C652536007169CE /* WordPosition */,
 				5DAF8EC42C63173B00B41F0A /* LaunchScreen.storyboard */,
 			);
 			path = "Oxford Picture Dictionary";
@@ -378,115 +583,6 @@
 			path = "Oxford Picture DictionaryUITests";
 			sourceTree = "<group>";
 		};
-		5D1297062C55C32600A9D40D /* Words */ = {
-			isa = PBXGroup;
-			children = (
-				5D37DDFA2C647E060099C54E /* p2-en.csv */,
-				5D37DE022C647E060099C54E /* p3-en.csv */,
-				5D37DE292C647E080099C54E /* p4-en.csv */,
-				5D37DDF82C647E060099C54E /* p5-en.csv */,
-				5D37DE1F2C647E080099C54E /* p6-en.csv */,
-				5D37DDF12C647E060099C54E /* p7-en.csv */,
-				5D37DE0A2C647E070099C54E /* p8-en.csv */,
-				5D37DE002C647E060099C54E /* p9-en.csv */,
-				5D37DE1D2C647E080099C54E /* p10-en.csv */,
-				5D37DE2D2C647E080099C54E /* p11-en.csv */,
-				5D37DE072C647E070099C54E /* p12-en.csv */,
-				5D37DE252C647E080099C54E /* p13-en.csv */,
-				5D37DDE42C647E050099C54E /* p14-en.csv */,
-				5D37DDF72C647E060099C54E /* p15-en.csv */,
-				5D37DE172C647E070099C54E /* p16-en.csv */,
-				5D37DDCE2C647E040099C54E /* p17-en.csv */,
-				5D37DDE32C647E050099C54E /* p18-en.csv */,
-				5D37DE2F2C647E080099C54E /* p19-en.csv */,
-				5D37DDFC2C647E060099C54E /* p20-en.csv */,
-				5D37DDF22C647E060099C54E /* p21-en.csv */,
-				5D37DE2A2C647E080099C54E /* p22-en.csv */,
-				5D37DE312C647E080099C54E /* p23-en.csv */,
-				5D37DDDE2C647E050099C54E /* p24-en.csv */,
-				5D37DDE92C647E050099C54E /* p25-en.csv */,
-				5D37DDDB2C647E050099C54E /* p26-en.csv */,
-				5D37DE182C647E070099C54E /* p27-en.csv */,
-				5D37DDF32C647E060099C54E /* p28-en.csv */,
-				5D37DE192C647E070099C54E /* p29-en.csv */,
-				5D37DDD12C647E040099C54E /* p30-en.csv */,
-				5D37DDD02C647E040099C54E /* p31-en.csv */,
-				5D37DDE52C647E050099C54E /* p32-en.csv */,
-				5D37DE042C647E060099C54E /* p33-en.csv */,
-				5D37DE142C647E070099C54E /* p34-en.csv */,
-				5D37DDFB2C647E060099C54E /* p35-en.csv */,
-				5D37DE112C647E070099C54E /* p36-en.csv */,
-				5D37DE2C2C647E080099C54E /* p37-en.csv */,
-				5D37DDED2C647E050099C54E /* p38-en.csv */,
-				5D37DE282C647E080099C54E /* p39-en.csv */,
-				5D37DDD92C647E050099C54E /* p40-en.csv */,
-				5D37DE082C647E070099C54E /* p41-en.csv */,
-				5D37DE1A2C647E070099C54E /* p42-en.csv */,
-				5D37DE062C647E070099C54E /* p43-en.csv */,
-				5D37DE1B2C647E070099C54E /* p44-en.csv */,
-				5D37DE092C647E070099C54E /* p45-en.csv */,
-				5D37DDF02C647E060099C54E /* p46-en.csv */,
-				5D37DE0D2C647E070099C54E /* p47-en.csv */,
-				5D37DE0F2C647E070099C54E /* p48-en.csv */,
-				5D37DE2B2C647E080099C54E /* p49-en.csv */,
-				5D37DDD62C647E040099C54E /* p50-en.csv */,
-				5D37DDDD2C647E050099C54E /* p51-en.csv */,
-				5D37DDF92C647E060099C54E /* p52-en.csv */,
-				5D37DE132C647E070099C54E /* p53-en.csv */,
-				5D37DDEA2C647E050099C54E /* p54-en.csv */,
-				5D37DE162C647E070099C54E /* p55-en.csv */,
-				5D37DE242C647E080099C54E /* p56-en.csv */,
-				5D37DE232C647E080099C54E /* p57-en.csv */,
-				5D37DDFD2C647E060099C54E /* p58-en.csv */,
-				5D37DDD32C647E040099C54E /* p59-en.csv */,
-				5D37DDE02C647E050099C54E /* p60-en.csv */,
-				5D37DDFE2C647E060099C54E /* p61-en.csv */,
-				5D37DE0E2C647E070099C54E /* p62-en.csv */,
-				5D37DDE82C647E050099C54E /* p63-en.csv */,
-				5D37DE0B2C647E070099C54E /* p64-en.csv */,
-				5D37DDFF2C647E060099C54E /* p65-en.csv */,
-				5D37DE2E2C647E080099C54E /* p66-en.csv */,
-				5D37DDD82C647E040099C54E /* p67-en.csv */,
-				5D37DDDC2C647E050099C54E /* p68-en.csv */,
-				5D37DDEC2C647E050099C54E /* p69-en.csv */,
-				5D37DDD42C647E040099C54E /* p70-en.csv */,
-				5D37DDE12C647E050099C54E /* p71-en.csv */,
-				5D37DE122C647E070099C54E /* p72-en.csv */,
-				5D37DDF62C647E060099C54E /* p73-en.csv */,
-				5D37DDD72C647E040099C54E /* p74-en.csv */,
-				5D37DDCF2C647E040099C54E /* p75-en.csv */,
-				5D37DDEB2C647E050099C54E /* p76-en.csv */,
-				5D37DE212C647E080099C54E /* p77-en.csv */,
-				5D37DE302C647E080099C54E /* p78-en.csv */,
-				5D37DDD52C647E040099C54E /* p79-en.csv */,
-				5D37DE032C647E060099C54E /* p80-en.csv */,
-				5D37DE1C2C647E070099C54E /* p81-en.csv */,
-				5D37DE222C647E080099C54E /* p82-en.csv */,
-				5D37DDE22C647E050099C54E /* p83-en.csv */,
-				5D37DE152C647E070099C54E /* p84-en.csv */,
-				5D37DDCD2C647E040099C54E /* p85-en.csv */,
-				5D37DDEF2C647E060099C54E /* p86-en.csv */,
-				5D37DE202C647E080099C54E /* p87-en.csv */,
-				5D37DE012C647E060099C54E /* p88-en.csv */,
-				5D37DE272C647E080099C54E /* p89-en.csv */,
-				5D37DE262C647E080099C54E /* p90-en.csv */,
-				5D37DDF42C647E060099C54E /* p91-en.csv */,
-				5D37DE052C647E060099C54E /* p92-en.csv */,
-				5D37DE0C2C647E070099C54E /* p93-en.csv */,
-				5D37DDDA2C647E050099C54E /* p94-en.csv */,
-				5D37DDDF2C647E050099C54E /* p95-en.csv */,
-				5D37DDF52C647E060099C54E /* p96-en.csv */,
-				5D37DDE72C647E050099C54E /* p97-en.csv */,
-				5D37DE102C647E070099C54E /* p98-en.csv */,
-				5D37DE1E2C647E080099C54E /* p99-en.csv */,
-				5D37DDE62C647E050099C54E /* p100-en.csv */,
-				5D37DDD22C647E040099C54E /* p101-en.csv */,
-				5D37DDEE2C647E050099C54E /* p102-en.csv */,
-				5D37DE322C647E080099C54E /* p103-en.csv */,
-			);
-			path = Words;
-			sourceTree = "<group>";
-		};
 		5D37DDC72C646AB90099C54E /* enum */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,6 +600,224 @@
 				5D37DDCB2C6476710099C54E /* LangFileLoader.swift */,
 			);
 			path = Language;
+			sourceTree = "<group>";
+		};
+		5D6530832C652536007169CE /* WordPosition */ = {
+			isa = PBXGroup;
+			children = (
+				5D6530A32C652536007169CE /* p2.csv */,
+				5D6530A42C652536007169CE /* p3.csv */,
+				5D6530BA2C652536007169CE /* p4.csv */,
+				5D6530BB2C652536007169CE /* p5.csv */,
+				5D6530B02C652536007169CE /* p6.csv */,
+				5D6530AF2C652536007169CE /* p7.csv */,
+				5D6530C32C652536007169CE /* p8.csv */,
+				5D6530C42C652536007169CE /* p9.csv */,
+				5D6530DF2C652536007169CE /* p10.csv */,
+				5D6530E02C652536007169CE /* p11.csv */,
+				5D6530E32C652536007169CE /* p12.csv */,
+				5D6530E22C652536007169CE /* p13.csv */,
+				5D6530E92C652536007169CE /* p14.csv */,
+				5D6530E62C652536007169CE /* p15.csv */,
+				5D6530E42C652536007169CE /* p16.csv */,
+				5D6530E52C652536007169CE /* p17.csv */,
+				5D6530892C652536007169CE /* p18.csv */,
+				5D6530842C652536007169CE /* p19.csv */,
+				5D6530932C652536007169CE /* p20.csv */,
+				5D6530942C652536007169CE /* p21.csv */,
+				5D6530912C652536007169CE /* p22.csv */,
+				5D65308E2C652536007169CE /* p23.csv */,
+				5D6530872C652536007169CE /* p24.csv */,
+				5D6530862C652536007169CE /* p25.csv */,
+				5D65308A2C652536007169CE /* p26.csv */,
+				5D65308D2C652536007169CE /* p27.csv */,
+				5D6530E82C652536007169CE /* p28.csv */,
+				5D6530E72C652536007169CE /* p29.csv */,
+				5D6530882C652536007169CE /* p30.csv */,
+				5D6530852C652536007169CE /* p31.csv */,
+				5D65308B2C652536007169CE /* p32.csv */,
+				5D65308C2C652536007169CE /* p33.csv */,
+				5D6530922C652536007169CE /* p34.csv */,
+				5D6530952C652536007169CE /* p35.csv */,
+				5D6530902C652536007169CE /* p36.csv */,
+				5D65308F2C652536007169CE /* p37.csv */,
+				5D6530DE2C652536007169CE /* p38.csv */,
+				5D6530E12C652536007169CE /* p39.csv */,
+				5D6530AC2C652536007169CE /* p40.csv */,
+				5D6530B32C652536007169CE /* p41.csv */,
+				5D6530BC2C652536007169CE /* p42.csv */,
+				5D6530B92C652536007169CE /* p43.csv */,
+				5D6530A62C652536007169CE /* p44.csv */,
+				5D6530A12C652536007169CE /* p45.csv */,
+				5D6530992C652536007169CE /* p46.csv */,
+				5D65309A2C652536007169CE /* p47.csv */,
+				5D6530D32C652536007169CE /* p48.csv */,
+				5D6530D02C652536007169CE /* p49.csv */,
+				5D6530A52C652536007169CE /* p50.csv */,
+				5D6530A22C652536007169CE /* p51.csv */,
+				5D6530982C652536007169CE /* p52.csv */,
+				5D65309B2C652536007169CE /* p53.csv */,
+				5D6530AD2C652536007169CE /* p54.csv */,
+				5D6530B22C652536007169CE /* p55.csv */,
+				5D6530BD2C652536007169CE /* p56.csv */,
+				5D6530B82C652536007169CE /* p57.csv */,
+				5D6530C82C652536007169CE /* p58.csv */,
+				5D6530CD2C652536007169CE /* p59.csv */,
+				5D6530D52C652536007169CE /* p60.csv */,
+				5D6530CE2C652536007169CE /* p61.csv */,
+				5D6530D82C652536007169CE /* p62.csv */,
+				5D6530DB2C652536007169CE /* p63.csv */,
+				5D6530C92C652536007169CE /* p64.csv */,
+				5D6530CC2C652536007169CE /* p65.csv */,
+				5D6530C52C652536007169CE /* p66.csv */,
+				5D6530C22C652536007169CE /* p67.csv */,
+				5D6530AE2C652536007169CE /* p68.csv */,
+				5D6530B12C652536007169CE /* p69.csv */,
+				5D6530CA2C652536007169CE /* p70.csv */,
+				5D6530CB2C652536007169CE /* p71.csv */,
+				5D6530C62C652536007169CE /* p72.csv */,
+				5D6530C12C652536007169CE /* p73.csv */,
+				5D6530D42C652536007169CE /* p74.csv */,
+				5D6530CF2C652536007169CE /* p75.csv */,
+				5D6530D72C652536007169CE /* p76.csv */,
+				5D6530DC2C652536007169CE /* p77.csv */,
+				5D6530A72C652536007169CE /* p78.csv */,
+				5D6530A02C652536007169CE /* p79.csv */,
+				5D6530B72C652536007169CE /* p80.csv */,
+				5D6530BE2C652536007169CE /* p81.csv */,
+				5D6530B52C652536007169CE /* p82.csv */,
+				5D6530AA2C652536007169CE /* p83.csv */,
+				5D65309C2C652536007169CE /* p84.csv */,
+				5D6530972C652536007169CE /* p85.csv */,
+				5D65309E2C652536007169CE /* p86.csv */,
+				5D6530A92C652536007169CE /* p87.csv */,
+				5D6530DD2C652536007169CE /* p88.csv */,
+				5D6530D62C652536007169CE /* p89.csv */,
+				5D65309D2C652536007169CE /* p90.csv */,
+				5D6530962C652536007169CE /* p91.csv */,
+				5D65309F2C652536007169CE /* p92.csv */,
+				5D6530A82C652536007169CE /* p93.csv */,
+				5D6530B62C652536007169CE /* p94.csv */,
+				5D6530BF2C652536007169CE /* p95.csv */,
+				5D6530B42C652536007169CE /* p96.csv */,
+				5D6530AB2C652536007169CE /* p97.csv */,
+				5D6530C02C652536007169CE /* p98.csv */,
+				5D6530C72C652536007169CE /* p99.csv */,
+				5D6530D12C652536007169CE /* p100.csv */,
+				5D6530D22C652536007169CE /* p101.csv */,
+				5D6530DA2C652536007169CE /* p102.csv */,
+				5D6530D92C652536007169CE /* p103.csv */,
+			);
+			path = WordPosition;
+			sourceTree = "<group>";
+		};
+		5D6530EA2C652536007169CE /* Word-en */ = {
+			isa = PBXGroup;
+			children = (
+				5D6530EB2C652536007169CE /* p2-en.txt */,
+				5D6531292C652536007169CE /* p3-en.txt */,
+				5D65310D2C652536007169CE /* p4-en.txt */,
+				5D6531352C652536007169CE /* p5-en.txt */,
+				5D6531142C652536007169CE /* p6-en.txt */,
+				5D65314D2C652536007169CE /* p7-en.txt */,
+				5D65310E2C652536007169CE /* p8-en.txt */,
+				5D6531372C652536007169CE /* p9-en.txt */,
+				5D65311F2C652536007169CE /* p10-en.txt */,
+				5D6530F42C652536007169CE /* p11-en.txt */,
+				5D65312D2C652536007169CE /* p12-en.txt */,
+				5D6530FF2C652536007169CE /* p13-en.txt */,
+				5D65314A2C652536007169CE /* p14-en.txt */,
+				5D6531182C652536007169CE /* p15-en.txt */,
+				5D65313F2C652536007169CE /* p16-en.txt */,
+				5D6531032C652536007169CE /* p17-en.txt */,
+				5D6531472C652536007169CE /* p18-en.txt */,
+				5D6531162C652536007169CE /* p19-en.txt */,
+				5D65313D2C652536007169CE /* p20-en.txt */,
+				5D6531092C652536007169CE /* p21-en.txt */,
+				5D6531442C652536007169CE /* p22-en.txt */,
+				5D65311A2C652536007169CE /* p23-en.txt */,
+				5D6531302C652536007169CE /* p24-en.txt */,
+				5D6530F82C652536007169CE /* p25-en.txt */,
+				5D6531262C652536007169CE /* p26-en.txt */,
+				5D6530F12C652536007169CE /* p27-en.txt */,
+				5D6531342C652536007169CE /* p28-en.txt */,
+				5D6530FA2C652536007169CE /* p29-en.txt */,
+				5D6531462C652536007169CE /* p30-en.txt */,
+				5D65311C2C652536007169CE /* p31-en.txt */,
+				5D65313B2C652536007169CE /* p32-en.txt */,
+				5D6531072C652536007169CE /* p33-en.txt */,
+				5D6531232C652536007169CE /* p34-en.txt */,
+				5D6530EE2C652536007169CE /* p35-en.txt */,
+				5D6531322C652536007169CE /* p36-en.txt */,
+				5D6530FC2C652536007169CE /* p37-en.txt */,
+				5D6531252C652536007169CE /* p38-en.txt */,
+				5D6530F22C652536007169CE /* p39-en.txt */,
+				5D65311B2C652536007169CE /* p40-en.txt */,
+				5D6531432C652536007169CE /* p41-en.txt */,
+				5D6531082C652536007169CE /* p42-en.txt */,
+				5D65313E2C652536007169CE /* p43-en.txt */,
+				5D6530F32C652536007169CE /* p44-en.txt */,
+				5D6531242C652536007169CE /* p45-en.txt */,
+				5D6530F72C652536007169CE /* p46-en.txt */,
+				5D6531312C652536007169CE /* p47-en.txt */,
+				5D6530EF2C652536007169CE /* p48-en.txt */,
+				5D6531222C652536007169CE /* p49-en.txt */,
+				5D6531062C652536007169CE /* p50-en.txt */,
+				5D65313C2C652536007169CE /* p51-en.txt */,
+				5D65311D2C652536007169CE /* p52-en.txt */,
+				5D6531452C652536007169CE /* p53-en.txt */,
+				5D6530FB2C652536007169CE /* p54-en.txt */,
+				5D6531332C652536007169CE /* p55-en.txt */,
+				5D6530F02C652536007169CE /* p56-en.txt */,
+				5D6531212C652536007169CE /* p57-en.txt */,
+				5D6530F92C652536007169CE /* p58-en.txt */,
+				5D65312F2C652536007169CE /* p59-en.txt */,
+				5D6530F62C652536007169CE /* p60-en.txt */,
+				5D6531202C652536007169CE /* p61-en.txt */,
+				5D6530FD2C652536007169CE /* p62-en.txt */,
+				5D65312C2C652536007169CE /* p63-en.txt */,
+				5D6531152C652536007169CE /* p64-en.txt */,
+				5D6531482C652536007169CE /* p65-en.txt */,
+				5D6531042C652536007169CE /* p66-en.txt */,
+				5D6531422C652536007169CE /* p67-en.txt */,
+				5D6531172C652536007169CE /* p68-en.txt */,
+				5D65314B2C652536007169CE /* p69-en.txt */,
+				5D6530FE2C652536007169CE /* p70-en.txt */,
+				5D65312E2C652536007169CE /* p71-en.txt */,
+				5D6530F52C652536007169CE /* p72-en.txt */,
+				5D65311E2C652536007169CE /* p73-en.txt */,
+				5D6531022C652536007169CE /* p74-en.txt */,
+				5D6531402C652536007169CE /* p75-en.txt */,
+				5D6531192C652536007169CE /* p76-en.txt */,
+				5D6531492C652536007169CE /* p77-en.txt */,
+				5D6531052C652536007169CE /* p78-en.txt */,
+				5D6531412C652536007169CE /* p79-en.txt */,
+				5D6531282C652536007169CE /* p80-en.txt */,
+				5D6530ED2C652536007169CE /* p81-en.txt */,
+				5D65312A2C652536007169CE /* p82-en.txt */,
+				5D6531002C652536007169CE /* p83-en.txt */,
+				5D65314E2C652536007169CE /* p84-en.txt */,
+				5D6531102C652536007169CE /* p85-en.txt */,
+				5D6531392C652536007169CE /* p86-en.txt */,
+				5D65310C2C652536007169CE /* p87-en.txt */,
+				5D65314F2C652536007169CE /* p88-en.txt */,
+				5D6531122C652536007169CE /* p89-en.txt */,
+				5D65312B2C652536007169CE /* p90-en.txt */,
+				5D6531012C652536007169CE /* p91-en.txt */,
+				5D6531272C652536007169CE /* p92-en.txt */,
+				5D6530EC2C652536007169CE /* p93-en.txt */,
+				5D6531382C652536007169CE /* p94-en.txt */,
+				5D65310A2C652536007169CE /* p95-en.txt */,
+				5D6531502C652536007169CE /* p96-en.txt */,
+				5D6531112C652536007169CE /* p97-en.txt */,
+				5D65313A2C652536007169CE /* p98-en.txt */,
+				5D65310B2C652536007169CE /* p99-en.txt */,
+				5D6531362C652536007169CE /* p100-en.txt */,
+				5D65310F2C652536007169CE /* p101-en.txt */,
+				5D65314C2C652536007169CE /* p102-en.txt */,
+				5D6531132C652536007169CE /* p103-en.txt */,
+			);
+			path = "Word-en";
 			sourceTree = "<group>";
 		};
 		5DAF8EB92C62AD9000B41F0A /* utils */ = {
@@ -635,111 +949,213 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D37DE4E2C647E090099C54E /* p63-en.csv in Resources */,
-				5D37DE972C647E090099C54E /* p23-en.csv in Resources */,
-				5D37DE622C647E090099C54E /* p20-en.csv in Resources */,
-				5D37DE542C647E090099C54E /* p102-en.csv in Resources */,
-				5D37DE8C2C647E090099C54E /* p90-en.csv in Resources */,
-				5D37DE6B2C647E090099C54E /* p92-en.csv in Resources */,
-				5D37DE7E2C647E090099C54E /* p27-en.csv in Resources */,
-				5D37DE832C647E090099C54E /* p10-en.csv in Resources */,
-				5D37DE8F2C647E090099C54E /* p4-en.csv in Resources */,
-				5D37DE902C647E090099C54E /* p22-en.csv in Resources */,
-				5D37DE712C647E090099C54E /* p64-en.csv in Resources */,
-				5D37DE852C647E090099C54E /* p6-en.csv in Resources */,
-				5D37DE422C647E080099C54E /* p68-en.csv in Resources */,
-				5D37DE3B2C647E080099C54E /* p79-en.csv in Resources */,
-				5D37DE362C647E080099C54E /* p31-en.csv in Resources */,
-				5D37DE692C647E090099C54E /* p80-en.csv in Resources */,
-				5D37DE6A2C647E090099C54E /* p33-en.csv in Resources */,
-				5D37DE752C647E090099C54E /* p48-en.csv in Resources */,
-				5D37DE7C2C647E090099C54E /* p55-en.csv in Resources */,
-				5D37DE8E2C647E090099C54E /* p39-en.csv in Resources */,
-				5D37DE802C647E090099C54E /* p42-en.csv in Resources */,
-				5D37DE3A2C647E080099C54E /* p70-en.csv in Resources */,
-				5D37DE8A2C647E090099C54E /* p56-en.csv in Resources */,
-				5D37DE612C647E090099C54E /* p35-en.csv in Resources */,
-				5D37DE872C647E090099C54E /* p77-en.csv in Resources */,
-				5D37DE382C647E080099C54E /* p101-en.csv in Resources */,
-				5D37DE842C647E090099C54E /* p99-en.csv in Resources */,
-				5D37DE922C647E090099C54E /* p37-en.csv in Resources */,
-				5D37DE492C647E090099C54E /* p18-en.csv in Resources */,
-				5D37DE5E2C647E090099C54E /* p5-en.csv in Resources */,
-				5D37DE352C647E080099C54E /* p75-en.csv in Resources */,
-				5D37DE672C647E090099C54E /* p88-en.csv in Resources */,
+				5D6531F22C652537007169CE /* p26-en.txt in Resources */,
+				5D6531AB2C652537007169CE /* p38.csv in Resources */,
+				5D6531EF2C652537007169CE /* p34-en.txt in Resources */,
+				5D6531A92C652537007169CE /* p77.csv in Resources */,
+				5D6531672C652536007169CE /* p47.csv in Resources */,
+				5D65318E2C652537007169CE /* p73.csv in Resources */,
+				5D6531FF2C652537007169CE /* p55-en.txt in Resources */,
+				5D6531542C652536007169CE /* p24.csv in Resources */,
+				5D6531F42C652537007169CE /* p80-en.txt in Resources */,
+				5D6531B82C652537007169CE /* p93-en.txt in Resources */,
+				5D6531A42C652537007169CE /* p76.csv in Resources */,
+				5D6531B72C652537007169CE /* p2-en.txt in Resources */,
+				5D6532002C652537007169CE /* p28-en.txt in Resources */,
+				5D6531602C652536007169CE /* p20.csv in Resources */,
+				5D65319B2C652537007169CE /* p61.csv in Resources */,
+				5D6531852C652537007169CE /* p57.csv in Resources */,
+				5D6531512C652536007169CE /* p19.csv in Resources */,
+				5D6532012C652537007169CE /* p5-en.txt in Resources */,
+				5D65320C2C652537007169CE /* p75-en.txt in Resources */,
+				5D6531E12C652537007169CE /* p64-en.txt in Resources */,
+				5D6531532C652536007169CE /* p25.csv in Resources */,
+				5D6531D82C652537007169CE /* p87-en.txt in Resources */,
+				5D65316A2C652536007169CE /* p90.csv in Resources */,
+				5D6531592C652536007169CE /* p33.csv in Resources */,
+				5D65317D2C652537007169CE /* p6.csv in Resources */,
+				5D6531F82C652537007169CE /* p63-en.txt in Resources */,
+				5D6532162C652537007169CE /* p14-en.txt in Resources */,
+				5D6531E02C652537007169CE /* p6-en.txt in Resources */,
+				5D6532122C652537007169CE /* p30-en.txt in Resources */,
+				5D65316C2C652537007169CE /* p92.csv in Resources */,
+				5D6531D62C652537007169CE /* p95-en.txt in Resources */,
+				5D6531B52C652537007169CE /* p28.csv in Resources */,
+				5D6531942C652537007169CE /* p99.csv in Resources */,
+				5D6531B42C652537007169CE /* p29.csv in Resources */,
+				5D6531B92C652537007169CE /* p81-en.txt in Resources */,
+				5D65318A2C652537007169CE /* p56.csv in Resources */,
+				5D65321A2C652537007169CE /* p84-en.txt in Resources */,
+				5D65320B2C652537007169CE /* p16-en.txt in Resources */,
+				5D6532192C652537007169CE /* p7-en.txt in Resources */,
+				5D6531AC2C652537007169CE /* p10.csv in Resources */,
+				5D65316D2C652537007169CE /* p79.csv in Resources */,
+				5D6531572C652536007169CE /* p26.csv in Resources */,
+				5D6531F92C652537007169CE /* p12-en.txt in Resources */,
+				5D6531712C652537007169CE /* p3.csv in Resources */,
+				5D6531E52C652537007169CE /* p76-en.txt in Resources */,
+				5D6531692C652536007169CE /* p84.csv in Resources */,
+				5D6531682C652536007169CE /* p53.csv in Resources */,
+				5D6531E42C652537007169CE /* p15-en.txt in Resources */,
+				5D6531D12C652537007169CE /* p78-en.txt in Resources */,
+				5D6531E32C652537007169CE /* p68-en.txt in Resources */,
+				5D6531AA2C652537007169CE /* p88.csv in Resources */,
+				5D65319F2C652537007169CE /* p101.csv in Resources */,
+				5D6531EA2C652537007169CE /* p73-en.txt in Resources */,
+				5D6531A32C652537007169CE /* p89.csv in Resources */,
+				5D65316F2C652537007169CE /* p51.csv in Resources */,
+				5D6532042C652537007169CE /* p94-en.txt in Resources */,
+				5D6531B32C652537007169CE /* p15.csv in Resources */,
+				5D6532172C652537007169CE /* p69-en.txt in Resources */,
+				5D6531582C652536007169CE /* p32.csv in Resources */,
+				5D6531772C652537007169CE /* p83.csv in Resources */,
+				5D6531AE2C652537007169CE /* p39.csv in Resources */,
+				5D6531BD2C652537007169CE /* p27-en.txt in Resources */,
+				5D6531982C652537007169CE /* p71.csv in Resources */,
+				5D6532032C652537007169CE /* p9-en.txt in Resources */,
+				5D65320D2C652537007169CE /* p79-en.txt in Resources */,
+				5D6532062C652537007169CE /* p98-en.txt in Resources */,
+				5D6531D42C652537007169CE /* p42-en.txt in Resources */,
 				5DAF8EC52C63173B00B41F0A /* LaunchScreen.storyboard in Resources */,
-				5D37DE762C647E090099C54E /* p98-en.csv in Resources */,
-				5D37DE332C647E080099C54E /* p85-en.csv in Resources */,
-				5D37DE932C647E090099C54E /* p11-en.csv in Resources */,
-				5D37DE3E2C647E080099C54E /* p67-en.csv in Resources */,
-				5D37DE3F2C647E080099C54E /* p40-en.csv in Resources */,
-				5D37DE5A2C647E090099C54E /* p91-en.csv in Resources */,
-				5D37DE4C2C647E090099C54E /* p100-en.csv in Resources */,
-				5D37DE732C647E090099C54E /* p47-en.csv in Resources */,
-				5D37DE782C647E090099C54E /* p72-en.csv in Resources */,
-				5D37DE482C647E090099C54E /* p83-en.csv in Resources */,
-				5D37DE7D2C647E090099C54E /* p16-en.csv in Resources */,
-				5D37DE662C647E090099C54E /* p9-en.csv in Resources */,
+				5D65318C2C652537007169CE /* p95.csv in Resources */,
+				5D65318F2C652537007169CE /* p67.csv in Resources */,
+				5D6532072C652537007169CE /* p32-en.txt in Resources */,
+				5D65317B2C652537007169CE /* p68.csv in Resources */,
+				5D6531D52C652537007169CE /* p21-en.txt in Resources */,
+				5D65317F2C652537007169CE /* p55.csv in Resources */,
+				5D6531C22C652537007169CE /* p60-en.txt in Resources */,
+				5D65315E2C652536007169CE /* p22.csv in Resources */,
+				5D65320E2C652537007169CE /* p67-en.txt in Resources */,
+				5D6531F52C652537007169CE /* p3-en.txt in Resources */,
+				5D6531F62C652537007169CE /* p82-en.txt in Resources */,
+				5D6531C62C652537007169CE /* p29-en.txt in Resources */,
+				5D65319E2C652537007169CE /* p100.csv in Resources */,
+				5D65316B2C652537007169CE /* p86.csv in Resources */,
+				5D6531562C652536007169CE /* p18.csv in Resources */,
+				5D6531832C652537007169CE /* p94.csv in Resources */,
+				5D65319C2C652537007169CE /* p75.csv in Resources */,
+				5D6532112C652537007169CE /* p53-en.txt in Resources */,
+				5D6532182C652537007169CE /* p102-en.txt in Resources */,
+				5D6531822C652537007169CE /* p82.csv in Resources */,
+				5D6531E82C652537007169CE /* p31-en.txt in Resources */,
 				5D1296DC2C55B05D00A9D40D /* Preview Assets.xcassets in Resources */,
-				5D37DE892C647E090099C54E /* p57-en.csv in Resources */,
-				5D37DE592C647E090099C54E /* p28-en.csv in Resources */,
-				5D37DE562C647E090099C54E /* p46-en.csv in Resources */,
-				5D37DE812C647E090099C54E /* p44-en.csv in Resources */,
-				5D37DE4B2C647E090099C54E /* p32-en.csv in Resources */,
-				5D37DE412C647E080099C54E /* p26-en.csv in Resources */,
-				5D37DE6F2C647E090099C54E /* p45-en.csv in Resources */,
-				5D37DE5C2C647E090099C54E /* p73-en.csv in Resources */,
-				5D37DE652C647E090099C54E /* p65-en.csv in Resources */,
-				5D37DE6E2C647E090099C54E /* p41-en.csv in Resources */,
-				5D37DE682C647E090099C54E /* p3-en.csv in Resources */,
-				5D37DE522C647E090099C54E /* p69-en.csv in Resources */,
-				5D37DE472C647E090099C54E /* p71-en.csv in Resources */,
-				5D37DE8B2C647E090099C54E /* p13-en.csv in Resources */,
-				5D37DE502C647E090099C54E /* p54-en.csv in Resources */,
-				5D37DE462C647E090099C54E /* p60-en.csv in Resources */,
-				5D37DE632C647E090099C54E /* p58-en.csv in Resources */,
-				5D37DE7F2C647E090099C54E /* p29-en.csv in Resources */,
-				5D37DE5F2C647E090099C54E /* p52-en.csv in Resources */,
-				5D37DE5D2C647E090099C54E /* p15-en.csv in Resources */,
-				5D37DE4D2C647E090099C54E /* p97-en.csv in Resources */,
-				5D37DE982C647E090099C54E /* p103-en.csv in Resources */,
-				5D37DE402C647E080099C54E /* p94-en.csv in Resources */,
-				5D37DE912C647E090099C54E /* p49-en.csv in Resources */,
-				5D37DE792C647E090099C54E /* p53-en.csv in Resources */,
-				5D37DE6C2C647E090099C54E /* p43-en.csv in Resources */,
-				5D37DE702C647E090099C54E /* p8-en.csv in Resources */,
-				5D37DE442C647E080099C54E /* p24-en.csv in Resources */,
+				5D6531DC2C652537007169CE /* p85-en.txt in Resources */,
+				5D6531E62C652537007169CE /* p23-en.txt in Resources */,
+				5D65315F2C652536007169CE /* p34.csv in Resources */,
+				5D65319D2C652537007169CE /* p49.csv in Resources */,
+				5D65315A2C652536007169CE /* p27.csv in Resources */,
+				5D6531612C652536007169CE /* p21.csv in Resources */,
+				5D6531BA2C652537007169CE /* p35-en.txt in Resources */,
+				5D65315C2C652536007169CE /* p37.csv in Resources */,
+				5D65316E2C652537007169CE /* p45.csv in Resources */,
+				5D6531812C652537007169CE /* p96.csv in Resources */,
+				5D6531FC2C652537007169CE /* p24-en.txt in Resources */,
+				5D6531622C652536007169CE /* p35.csv in Resources */,
+				5D6531A72C652537007169CE /* p102.csv in Resources */,
+				5D6531522C652536007169CE /* p31.csv in Resources */,
+				5D6531C72C652537007169CE /* p54-en.txt in Resources */,
+				5D6531CD2C652537007169CE /* p91-en.txt in Resources */,
+				5D6531CE2C652537007169CE /* p74-en.txt in Resources */,
+				5D6531B02C652537007169CE /* p12.csv in Resources */,
+				5D6531DA2C652537007169CE /* p8-en.txt in Resources */,
+				5D6531802C652537007169CE /* p41.csv in Resources */,
+				5D6531D22C652537007169CE /* p50-en.txt in Resources */,
+				5D6531722C652537007169CE /* p50.csv in Resources */,
+				5D6531A22C652537007169CE /* p60.csv in Resources */,
+				5D6531C52C652537007169CE /* p58-en.txt in Resources */,
+				5D6531A12C652537007169CE /* p74.csv in Resources */,
+				5D6531FE2C652537007169CE /* p36-en.txt in Resources */,
+				5D6531732C652537007169CE /* p44.csv in Resources */,
+				5D6531ED2C652537007169CE /* p57-en.txt in Resources */,
+				5D65320F2C652537007169CE /* p41-en.txt in Resources */,
+				5D6531F32C652537007169CE /* p92-en.txt in Resources */,
+				5D6531882C652537007169CE /* p5.csv in Resources */,
+				5D6531FD2C652537007169CE /* p47-en.txt in Resources */,
+				5D6531762C652537007169CE /* p87.csv in Resources */,
+				5D6531952C652537007169CE /* p58.csv in Resources */,
+				5D6531892C652537007169CE /* p42.csv in Resources */,
+				5D6532152C652537007169CE /* p77-en.txt in Resources */,
+				5D65320A2C652537007169CE /* p43-en.txt in Resources */,
+				5D6531EE2C652537007169CE /* p49-en.txt in Resources */,
+				5D65317A2C652537007169CE /* p54.csv in Resources */,
+				5D6531EC2C652537007169CE /* p61-en.txt in Resources */,
+				5D65315B2C652536007169CE /* p23.csv in Resources */,
+				5D6531792C652537007169CE /* p40.csv in Resources */,
+				5D6531F72C652537007169CE /* p90-en.txt in Resources */,
+				5D6531972C652537007169CE /* p70.csv in Resources */,
+				5D6531A62C652537007169CE /* p103.csv in Resources */,
+				5D6531962C652537007169CE /* p64.csv in Resources */,
+				5D6531662C652536007169CE /* p46.csv in Resources */,
 				5D1296D92C55B05D00A9D40D /* Assets.xcassets in Resources */,
-				5D37DE822C647E090099C54E /* p81-en.csv in Resources */,
-				5D37DE742C647E090099C54E /* p62-en.csv in Resources */,
-				5D37DE432C647E080099C54E /* p51-en.csv in Resources */,
-				5D37DE772C647E090099C54E /* p36-en.csv in Resources */,
-				5D37DE7A2C647E090099C54E /* p34-en.csv in Resources */,
-				5D37DE342C647E080099C54E /* p17-en.csv in Resources */,
-				5D37DE642C647E090099C54E /* p61-en.csv in Resources */,
-				5D37DE552C647E090099C54E /* p86-en.csv in Resources */,
-				5D37DE392C647E080099C54E /* p59-en.csv in Resources */,
-				5D37DE6D2C647E090099C54E /* p12-en.csv in Resources */,
-				5D37DE882C647E090099C54E /* p82-en.csv in Resources */,
-				5D37DE582C647E090099C54E /* p21-en.csv in Resources */,
-				5D37DE862C647E090099C54E /* p87-en.csv in Resources */,
-				5D37DE952C647E090099C54E /* p19-en.csv in Resources */,
-				5D37DE3C2C647E080099C54E /* p50-en.csv in Resources */,
-				5D37DE7B2C647E090099C54E /* p84-en.csv in Resources */,
-				5D37DE5B2C647E090099C54E /* p96-en.csv in Resources */,
-				5D37DE8D2C647E090099C54E /* p89-en.csv in Resources */,
-				5D37DE4F2C647E090099C54E /* p25-en.csv in Resources */,
-				5D37DE4A2C647E090099C54E /* p14-en.csv in Resources */,
-				5D37DE572C647E090099C54E /* p7-en.csv in Resources */,
-				5D37DE942C647E090099C54E /* p66-en.csv in Resources */,
-				5D37DE372C647E080099C54E /* p30-en.csv in Resources */,
-				5D37DE452C647E080099C54E /* p95-en.csv in Resources */,
-				5D37DE602C647E090099C54E /* p2-en.csv in Resources */,
-				5D37DE3D2C647E080099C54E /* p74-en.csv in Resources */,
-				5D37DE722C647E090099C54E /* p93-en.csv in Resources */,
-				5D37DE512C647E090099C54E /* p76-en.csv in Resources */,
-				5D37DE962C647E090099C54E /* p78-en.csv in Resources */,
-				5D37DE532C647E090099C54E /* p38-en.csv in Resources */,
+				5D6531702C652537007169CE /* p2.csv in Resources */,
+				5D6531FA2C652537007169CE /* p71-en.txt in Resources */,
+				5D6531F02C652537007169CE /* p45-en.txt in Resources */,
+				5D6531B62C652537007169CE /* p14.csv in Resources */,
+				5D6531862C652537007169CE /* p43.csv in Resources */,
+				5D6531D32C652537007169CE /* p33-en.txt in Resources */,
+				5D6531BC2C652537007169CE /* p56-en.txt in Resources */,
+				5D6531C32C652537007169CE /* p46-en.txt in Resources */,
+				5D6531B12C652537007169CE /* p16.csv in Resources */,
+				5D6531E22C652537007169CE /* p19-en.txt in Resources */,
+				5D6531992C652537007169CE /* p65.csv in Resources */,
+				5D6531652C652536007169CE /* p52.csv in Resources */,
+				5D6532052C652537007169CE /* p86-en.txt in Resources */,
+				5D6531922C652537007169CE /* p66.csv in Resources */,
+				5D6531A52C652537007169CE /* p62.csv in Resources */,
+				5D65317C2C652537007169CE /* p7.csv in Resources */,
+				5D6531902C652537007169CE /* p8.csv in Resources */,
+				5D65321B2C652537007169CE /* p88-en.txt in Resources */,
+				5D6531D92C652537007169CE /* p4-en.txt in Resources */,
+				5D6531BB2C652537007169CE /* p48-en.txt in Resources */,
+				5D6531F12C652537007169CE /* p38-en.txt in Resources */,
+				5D6531DE2C652537007169CE /* p89-en.txt in Resources */,
+				5D6532092C652537007169CE /* p20-en.txt in Resources */,
+				5D6531C92C652537007169CE /* p62-en.txt in Resources */,
+				5D6531CC2C652537007169CE /* p83-en.txt in Resources */,
+				5D6531C02C652537007169CE /* p11-en.txt in Resources */,
+				5D6531632C652536007169CE /* p91.csv in Resources */,
+				5D6531BE2C652537007169CE /* p39-en.txt in Resources */,
+				5D6531CF2C652537007169CE /* p17-en.txt in Resources */,
+				5D6531C42C652537007169CE /* p25-en.txt in Resources */,
+				5D6531912C652537007169CE /* p9.csv in Resources */,
+				5D6531B22C652537007169CE /* p17.csv in Resources */,
+				5D65319A2C652537007169CE /* p59.csv in Resources */,
+				5D6531DB2C652537007169CE /* p101-en.txt in Resources */,
+				5D6532022C652537007169CE /* p100-en.txt in Resources */,
+				5D6531A02C652537007169CE /* p48.csv in Resources */,
+				5D6531BF2C652537007169CE /* p44-en.txt in Resources */,
+				5D6531D02C652537007169CE /* p66-en.txt in Resources */,
+				5D6532132C652537007169CE /* p18-en.txt in Resources */,
+				5D6531DF2C652537007169CE /* p103-en.txt in Resources */,
+				5D6531642C652536007169CE /* p85.csv in Resources */,
+				5D6531DD2C652537007169CE /* p97-en.txt in Resources */,
+				5D6531D72C652537007169CE /* p99-en.txt in Resources */,
+				5D65318B2C652537007169CE /* p81.csv in Resources */,
+				5D65321C2C652537007169CE /* p96-en.txt in Resources */,
+				5D6531FB2C652537007169CE /* p59-en.txt in Resources */,
+				5D65317E2C652537007169CE /* p69.csv in Resources */,
+				5D6531E92C652537007169CE /* p52-en.txt in Resources */,
+				5D6531CA2C652537007169CE /* p70-en.txt in Resources */,
+				5D65318D2C652537007169CE /* p98.csv in Resources */,
+				5D6531742C652537007169CE /* p78.csv in Resources */,
+				5D6531872C652537007169CE /* p4.csv in Resources */,
+				5D6531552C652536007169CE /* p30.csv in Resources */,
+				5D6531EB2C652537007169CE /* p10-en.txt in Resources */,
+				5D6531752C652537007169CE /* p93.csv in Resources */,
+				5D6531CB2C652537007169CE /* p13-en.txt in Resources */,
+				5D6531842C652537007169CE /* p80.csv in Resources */,
+				5D6532142C652537007169CE /* p65-en.txt in Resources */,
+				5D6531932C652537007169CE /* p72.csv in Resources */,
+				5D6531C82C652537007169CE /* p37-en.txt in Resources */,
+				5D6531C12C652537007169CE /* p72-en.txt in Resources */,
+				5D6531E72C652537007169CE /* p40-en.txt in Resources */,
+				5D6532102C652537007169CE /* p22-en.txt in Resources */,
+				5D6532082C652537007169CE /* p51-en.txt in Resources */,
+				5D65315D2C652536007169CE /* p36.csv in Resources */,
+				5D6531A82C652537007169CE /* p63.csv in Resources */,
+				5D6531AF2C652537007169CE /* p13.csv in Resources */,
+				5D6531AD2C652537007169CE /* p11.csv in Resources */,
+				5D6531782C652537007169CE /* p97.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

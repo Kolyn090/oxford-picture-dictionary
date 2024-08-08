@@ -1,0 +1,20 @@
+Occupations III
+weather forecaster
+newscaster
+artist
+photographer
+model
+fashion designer
+writer
+architect
+disc jockey
+cameraperson
+reporter
+saleperson
+officer
+security guard
+teller
+computer programmer
+receptionist
+accountant
+messenger

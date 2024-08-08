@@ -1,0 +1,23 @@
+Describing Clothes
+short
+long
+tight
+loose
+dirty
+clean
+small
+big
+light
+dark
+high
+low
+new
+old
+open
+closed
+striped
+checked
+polka dot
+solid
+print
+plaid

@@ -1,0 +1,28 @@
+A Classroom
+flag
+clock
+loudspeaker
+teacher
+chalkboard
+locker
+bulletin board
+computer
+chalk tray
+chalk
+eraser
+hall
+(loose-leaf) paper
+ring binder
+spiral notebook
+desk
+glue
+brush
+student
+pencil sharpener
+pencil eraser
+ballpoint pen
+ruler
+pencil
+thumbtack
+(text)book
+overhead projector

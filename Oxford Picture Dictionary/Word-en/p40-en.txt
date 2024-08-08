@@ -1,0 +1,21 @@
+Ailments and Injuries
+rash
+fever
+insect bite
+chills
+black eye
+headache
+stomachache
+backache
+toothache
+high blood pressure
+cold
+sore throat
+tongue depressor
+sprain
+stretch bandage
+infection
+broken bone
+cut
+bruise
+burn

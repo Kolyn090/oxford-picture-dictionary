@@ -1,0 +1,15 @@
+Restaurant Verbs
+eat
+drink
+serve
+cook
+order
+clear
+pay
+set (the table)
+give
+take
+spread
+hold
+light
+burn

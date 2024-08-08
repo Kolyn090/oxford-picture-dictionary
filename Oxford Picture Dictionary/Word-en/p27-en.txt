@@ -1,0 +1,33 @@
+Houses
+driveway
+garage
+TV antenna
+roof
+deck
+porch
+window
+shutter
+chimney
+gutter
+hammock
+lawn mower
+sprinkler
+garden hose
+grass
+watering can
+patio
+drainpipe
+screen
+mitt
+spatula
+grill
+charcoal briquettes
+lounge chair
+power saw
+work gloves
+trowel
+toolshed
+hedge clippers
+rake
+shovel
+wheelbarrow

@@ -1,0 +1,38 @@
+Cars
+door lock
+side mirror
+armrest
+door handle
+visor
+windshield wiper
+rearview mirrow
+steering wheel
+gas gauge
+speeddometer
+turn signal lever
+horn
+column
+ignition
+emergency brake
+bucket seat
+gearshift
+radio
+dashboard
+glove compartment
+vent
+mat
+seat belt
+stick shift
+clutch
+brake
+accelerator
+license plate
+brake light
+backup light
+taillight
+backseat
+child's seat
+gas tank
+headrest
+hubcap
+tire

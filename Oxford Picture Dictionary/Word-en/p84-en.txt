@@ -1,0 +1,14 @@
+Occupations I: Main Street USA
+pharmacist
+mechanic
+barber
+travel agent
+repairperson
+tailor
+greengrocer
+baker
+optician
+hairdresser
+florist
+jeweller
+butcher

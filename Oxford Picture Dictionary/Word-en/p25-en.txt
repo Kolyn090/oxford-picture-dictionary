@@ -1,0 +1,17 @@
+Describing the Weather
+rainy
+cloudy
+snowy
+sunny
+thermometer
+temperature
+hot
+warm
+cool
+cold
+freezing
+foggy
+windy
+dry
+wet
+icy

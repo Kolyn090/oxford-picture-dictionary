@@ -11,7 +11,7 @@ class LangManager: ObservableObject {
     private static var minPage: Int = 2
     private static var maxPage: Int = 103
     
-    @Published var fileLoader = LangFileLoader(fileName: "p2-en")
+    @Published var fileLoader = LangFileLoader()
     @Published var currentLang: Lang = .UK
     @Published var isShowView: Bool = false
     @Published var imageName: String = "p2"
@@ -20,6 +20,8 @@ class LangManager: ObservableObject {
     private func setCounter(val: Int) -> Void {
         pageCounter = min(max(LangManager.minPage, val), LangManager.maxPage)
         imageName = "p\(pageCounter)"
+        fileLoader.wordsFileName = getCSVName
+        fileLoader.positionFileName = imageName
     }
     func goToPreviousPage() -> Void {
         setCounter(val: pageCounter-1)
@@ -50,6 +52,8 @@ class LangManager: ObservableObject {
         pageCounter = defaultPage
         currentLang = defaultLang
         imageName = "p\(defaultPage)"
+        fileLoader.wordsFileName = getCSVName
+        fileLoader.positionFileName = imageName
     }
     
     private var csvNameSuffix: String {
@@ -72,7 +76,9 @@ class LangManager: ObservableObject {
     func changeLanguage(to lang: Lang) -> Void {
         currentLang = lang
         imageName = "p\(pageCounter)"
-        fileLoader.fileName = getCSVName
+        fileLoader.wordsFileName = getCSVName
+        fileLoader.positionFileName = imageName
+        
         SpeechManager.shared.changeLanguage(to: lang.rawValue)
     }
 }

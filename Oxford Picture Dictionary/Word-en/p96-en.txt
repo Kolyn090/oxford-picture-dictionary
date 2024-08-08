@@ -1,0 +1,9 @@
+Sports Verbs
+hit
+serve
+kick
+catch
+pass
+run
+fall
+jump

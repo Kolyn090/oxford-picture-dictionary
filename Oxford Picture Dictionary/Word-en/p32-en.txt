@@ -1,0 +1,33 @@
+The Bedroom
+hook
+hanger
+closet
+jewelry box
+mirror
+comb
+hairbrush
+alarm clock
+bureau
+curtain
+air conditioner
+blinds
+tissues
+headboard
+pillowcase
+pillow
+mattress
+box spring
+(flat) sheet
+blanket
+bed
+comforter
+bedspread
+footboard
+light switch
+phone
+cord
+jack
+night table
+rug
+floor
+chest of drawers

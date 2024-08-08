@@ -1,0 +1,22 @@
+Fields and Courses
+service court
+net
+service line
+baseline
+clubs
+rough
+golf bag
+golf cart
+flag
+green
+sand trap
+fairway
+tee
+pole
+ski boot
+binding
+ski
+ski lift
+stretch
+starting gate
+finish line

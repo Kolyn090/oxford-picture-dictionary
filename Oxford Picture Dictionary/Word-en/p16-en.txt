@@ -1,0 +1,34 @@
+Family Restaurant and Cocktail Lounge
+cook
+waitress
+busboy
+ketchup
+waiter
+apron
+menu
+high chair
+booth
+straw
+soft drink
+jukebox
+sugar (packet)
+check
+tea
+sandwich
+corkscrew
+cork
+wine
+tap
+bartender
+liquor (bottle)
+beer
+bar
+bar stool
+pipe
+coaster
+(book of) matches
+ashtray
+ligher
+cigarette
+cocktail waitress
+tray

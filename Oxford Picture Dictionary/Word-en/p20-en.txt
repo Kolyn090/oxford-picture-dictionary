@@ -1,0 +1,26 @@
+Everyday Clothes
+lapel
+blazer
+button
+slacks
+heel
+sole
+shoelace
+sweatshirt
+wallet
+sweatpants
+sneakers
+sweatband
+tank top
+shorts
+long sleeve
+belt
+buckle
+shopping bag
+sandal
+collar
+short sleeve
+dress
+purse
+umbrella
+(high) heels

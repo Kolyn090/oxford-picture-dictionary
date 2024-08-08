@@ -1,0 +1,22 @@
+Aircraft
+hot air balloon
+helicopter
+rotor
+private jet
+glider
+blimp
+hang glider
+propeller plane
+nose
+wing
+tail
+jet engine
+cargo area
+cargo door
+fuselage
+landing gear
+terminal gear
+hangar
+(jet) plane
+runway
+control tower

@@ -17,14 +17,16 @@ struct ContentView: View {
         ZStack {
             ZStack {
                 if ContentView.isUsingDrag == 0 {
-                    BubbleImageView(bubbles: langManager.fileLoader.data
-                        .map { data in
-                        return Bubble(word: data[0],
-                                      xPercentage: CGFloat(Double(data[1])!),
-                                      yPercentage: CGFloat(Double(data[2])!))
+                    BubbleImageView(bubbles: 
+                                        zip(langManager.fileLoader.positionData,
+                                            langManager.fileLoader.wordsData)
+                        .map { (position, word) in
+                        return Bubble(word: word,
+                                      xPercentage: CGFloat(Double(position[0])!),
+                                      yPercentage: CGFloat(Double(position[1])!))
                         }, imageName: langManager.imageName, title: langManager.fileLoader.title)
                 } else {
-                    DragBubbleImageView(imageName: langManager.fileLoader.fileName)
+                    DragBubbleImageView(imageName: langManager.fileLoader.positionFileName)
                 }
             }
             

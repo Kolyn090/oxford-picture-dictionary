@@ -1,0 +1,35 @@
+Energy
+oil well
+derrick
+sun
+wind
+geyser
+coal mine
+coal
+shuttle car
+elevator
+shaft
+waterfall
+refinery
+nuclear reactor
+core
+uranium rods
+cooling tower
+solar collector
+dam
+windmill
+power station
+electrical generator
+smokestack
+transmission towers
+power lines
+transformer
+utility pole
+heat
+gas(oline)
+natural gas
+propane gas
+jet fuel
+electricity
+motor oil
+diesel fuel

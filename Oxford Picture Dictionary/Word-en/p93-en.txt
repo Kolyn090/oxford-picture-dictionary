@@ -1,0 +1,36 @@
+Ballfields
+left fielder
+center fielder
+right fielder
+third baseman
+shortstop
+base
+second baseman
+first baseman
+foul line
+stands
+pitcher's mound
+pitcher
+dugout
+batter
+home plate
+catcher
+umpire
+batboy
+scoreboard
+cheerleaders
+coach
+referee
+end zone
+split end
+left tackle
+left guard
+center
+right guard
+right tackle
+tight end
+flanker
+quarterback
+halfback
+fullback
+goalpost

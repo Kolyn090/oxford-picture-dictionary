@@ -1,0 +1,31 @@
+Plants and Trees
+redwood
+palm
+eucalyptus
+dogwood
+magnolia
+poplar
+willow
+birch
+oak
+twig
+acorn
+pine
+needle
+cone
+tree
+branch
+trunk
+bark
+root
+elm
+leaf
+holly
+maple
+house plants
+cactus
+bushes
+vine
+poison oak
+poison sumac
+poison ivy

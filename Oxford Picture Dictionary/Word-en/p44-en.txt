@@ -1,0 +1,17 @@
+The City
+office building
+lobby
+corner
+crosswalk
+department store
+bakery
+public telephone
+street sign
+post office
+traffic cop
+intersection
+pedestrian
+bus stop
+bench
+trash basket
+subway station

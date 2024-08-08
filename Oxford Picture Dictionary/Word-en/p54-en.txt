@@ -1,0 +1,14 @@
+Public Transportation
+cord
+seat
+bus driver
+transfer
+fare box
+rider
+conductor
+strap
+car
+track
+platform
+turnstile
+token booth

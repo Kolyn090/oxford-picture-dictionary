@@ -1,0 +1,22 @@
+Mammals I
+bison
+pony
+horse
+mane
+foal
+donkey
+lamb
+sheep
+deer
+fawn
+goat
+giraffe
+hog
+calf
+cow
+camel
+hump
+bull
+moose
+antler
+hoof

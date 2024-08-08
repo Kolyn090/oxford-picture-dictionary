@@ -1,0 +1,22 @@
+Meat, Poultry, and Seafood
+whole (chicken)
+split
+quarter
+thigh
+leg
+breast
+wing
+turkey
+chicken
+duck
+fish
+whole
+filet
+steak
+lobster
+shrimp
+clam(s)
+oyster(s)
+mussel(s)
+scallop(s)
+crab(s)

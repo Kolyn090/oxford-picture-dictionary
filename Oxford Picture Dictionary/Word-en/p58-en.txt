@@ -1,0 +1,30 @@
+In Port
+fishing boat
+fisherman
+pier
+forklift
+bow
+crane
+container
+hold
+(container)ship
+cargo
+stern
+barge
+tugboat
+lighthouse
+tanker
+buoy
+ferry
+smokestack
+lifeboat
+gangway
+porthole
+deck
+windlass
+anchor
+line
+bollard
+ocean liner
+dock
+terminal

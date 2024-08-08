@@ -1,0 +1,27 @@
+Mammals I
+koala
+armadillo
+kangaroo
+tail
+hind legs
+pouch
+forelegs
+bat
+anteater
+chipmunk
+rat
+gopher
+mouse
+squirrel
+porcupine
+quill
+beaver
+rabbit
+hippopotamus
+llama
+rhinoceros
+horn
+elephant
+trunk
+tusk
+zebra

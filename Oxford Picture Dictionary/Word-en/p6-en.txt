@@ -1,0 +1,21 @@
+Vegetables
+(head of) cauliflower
+broccoli
+cabbage
+brussels sprouts
+watercress
+lettuce
+escarole
+spinach
+herb(s)
+celery
+artichoke
+(ear of) corn
+cob
+kidney bean(s)
+black bean(s)
+string bean(s)
+lima bean(s)
+pea(s)
+pod
+asparagus

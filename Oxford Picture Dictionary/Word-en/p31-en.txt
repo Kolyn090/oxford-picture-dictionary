@@ -1,0 +1,17 @@
+Kitchen Verbs
+stir
+grate
+open
+pour
+peel
+carve
+break
+beat
+cut
+slice
+chop
+steam
+broil
+bake
+fry
+boil

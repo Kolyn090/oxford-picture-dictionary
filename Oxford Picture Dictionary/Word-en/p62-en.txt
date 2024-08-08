@@ -1,0 +1,18 @@
+Simple Animals
+snail
+shell
+antenna
+oyster
+mussel
+slug
+squid
+octopus
+starfish
+shrimp
+crab
+scallop
+worm
+jellyfish
+tentacle
+lobster
+claw

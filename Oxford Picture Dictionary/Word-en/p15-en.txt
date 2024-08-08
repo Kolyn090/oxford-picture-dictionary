@@ -1,0 +1,14 @@
+The Supermarket
+household items
+bin
+customer
+snacks
+shopping cart
+receipt
+cash register
+cashier
+converyor belt
+groceries
+bag
+checkout counter
+check

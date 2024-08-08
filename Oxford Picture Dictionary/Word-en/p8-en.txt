@@ -1,0 +1,24 @@
+Fruits
+(a bunch of) grapes
+apple
+stem
+core
+coconut
+pineapple
+mango
+papaya
+grapefruit
+orange
+section
+rind
+seed
+lemon
+lime
+gooseberries
+blackberries
+cranberries
+blueberries
+strawberry
+raspberries
+nectarine
+pear

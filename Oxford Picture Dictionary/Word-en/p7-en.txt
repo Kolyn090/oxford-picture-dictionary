@@ -1,0 +1,18 @@
+Vegetables
+tomato(es)
+cucumber(s)
+eggplant
+pepper(s)
+potato(s)
+yam
+garlic
+clove
+pumpkin
+zucchini
+acorn squash
+radish(es)
+mushroom(s)
+onion(s)
+carrot(s)
+beet(s)
+turnip

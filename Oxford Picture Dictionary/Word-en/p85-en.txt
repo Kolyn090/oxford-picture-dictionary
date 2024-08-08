@@ -1,0 +1,14 @@
+Occupations II
+plumber
+carpenter
+gardener
+locksmith
+real estate agent
+electrician
+painter
+housekeeper
+janitor
+delivery boy
+doorman
+shop worker
+foreman
