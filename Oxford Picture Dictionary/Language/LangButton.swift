@@ -9,10 +9,12 @@ import SwiftUI
 
 struct LangButton: View {
     @ObservedObject var langManager: LangManager
+    var closeCreditsPage: () -> Void
     
     var body: some View {
         Button {
             langManager.isShowView.toggle()
+            closeCreditsPage()
         } label: {
             Circle()
                 .frame(width: 64, height: 64)

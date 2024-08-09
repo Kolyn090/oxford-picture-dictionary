@@ -11,6 +11,7 @@ import SwiftData
 struct ContentView: View {
     static let isUsingDrag: Int = 0
     
+    @State var isShowCredits: Bool = false
     @ObservedObject var langManager = LangManager(defaultPage: 2, defaultLang: .UK)
     
     var body: some View {
@@ -86,11 +87,27 @@ struct ContentView: View {
             }
             
             LangView(langManager: langManager)
+            CreditsView()
+                .opacity(isShowCredits ? 1 : 0)
             
             HStack {
+                VStack {
+                    Button {
+                        isShowCredits.toggle()
+                        langManager.isShowView = false
+                    } label: {
+                        Text(isShowCredits ? "Close" : "Credits")
+                            .fontWeight(.bold)
+                    }
+                    .padding()
+                    Spacer()
+                }
                 Spacer()
                 VStack {
-                    LangButton(langManager: langManager)
+                    LangButton(langManager: langManager) {
+                        isShowCredits = false
+                    }
+                    .opacity(isShowCredits ? 0 : 1)
                         .padding()
                     Spacer()
                 }

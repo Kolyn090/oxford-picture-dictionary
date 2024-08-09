@@ -124,6 +124,7 @@
 		5D39DE932C668548004E6F87 /* p28-zh-Hant.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D39DE2D2C668547004E6F87 /* p28-zh-Hant.txt */; };
 		5D39DE942C668548004E6F87 /* p58-zh-Hant.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D39DE2E2C668547004E6F87 /* p58-zh-Hant.txt */; };
 		5D39DE952C668548004E6F87 /* p76-zh-Hant.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D39DE2F2C668547004E6F87 /* p76-zh-Hant.txt */; };
+		5D39DE972C668F68004E6F87 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D39DE962C668F68004E6F87 /* CreditsView.swift */; };
 		5D6531512C652536007169CE /* p19.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530842C652536007169CE /* p19.csv */; };
 		5D6531522C652536007169CE /* p31.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530852C652536007169CE /* p31.csv */; };
 		5D6531532C652536007169CE /* p25.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5D6530862C652536007169CE /* p25.csv */; };
@@ -578,6 +579,7 @@
 		5D39DE2D2C668547004E6F87 /* p28-zh-Hant.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p28-zh-Hant.txt"; sourceTree = "<group>"; };
 		5D39DE2E2C668547004E6F87 /* p58-zh-Hant.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p58-zh-Hant.txt"; sourceTree = "<group>"; };
 		5D39DE2F2C668547004E6F87 /* p76-zh-Hant.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p76-zh-Hant.txt"; sourceTree = "<group>"; };
+		5D39DE962C668F68004E6F87 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		5D6530842C652536007169CE /* p19.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p19.csv; sourceTree = "<group>"; };
 		5D6530852C652536007169CE /* p31.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p31.csv; sourceTree = "<group>"; };
 		5D6530862C652536007169CE /* p25.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p25.csv; sourceTree = "<group>"; };
@@ -955,6 +957,7 @@
 				5DB2E3E62C581B9B00E03552 /* SpeechManager.swift */,
 				5DB2E3EF2C58552600E03552 /* PercentObservableObject.swift */,
 				5DB2E3E82C58242200E03552 /* SpeechAdjustView.swift */,
+				5D39DE962C668F68004E6F87 /* CreditsView.swift */,
 				5D37DDC72C646AB90099C54E /* enum */,
 				5DB2E3EA2C58475300E03552 /* components */,
 				5DAF8EBE2C62ADD100B41F0A /* extensions */,
@@ -2028,6 +2031,7 @@
 				5D1297012C55B39800A9D40D /* BubbleImageView.swift in Sources */,
 				5DB2E3F02C58552600E03552 /* PercentObservableObject.swift in Sources */,
 				5DAF8EBD2C62ADB000B41F0A /* UserDefaultsUtils.swift in Sources */,
+				5D39DE972C668F68004E6F87 /* CreditsView.swift in Sources */,
 				5D37DDC22C6469A90099C54E /* LangView.swift in Sources */,
 				5D1296D32C55B05B00A9D40D /* Oxford_Picture_DictionaryApp.swift in Sources */,
 			);

@@ -32,6 +32,7 @@ struct LangView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 50)
                 .opacity(0.8)
+                .foregroundStyle(Color.BackgroundColor)
             
             let columns = [
                     GridItem(.flexible()),
