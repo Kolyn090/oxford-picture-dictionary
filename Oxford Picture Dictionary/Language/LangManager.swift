@@ -67,6 +67,8 @@ class LangManager: ObservableObject {
                     return "en"
                 case .CN:
                     return "zh-Hans"
+                case .TW:
+                    return "zh-Hant"
                 }
             }
             return dash(val: getSuffix())

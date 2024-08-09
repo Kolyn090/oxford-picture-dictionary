@@ -41,9 +41,9 @@ struct LangView: View {
                 ]
             
             LazyVGrid(columns: columns, spacing: 10) {
-                ChangeLangButton(langManager: langManager, language: .UK)
-                ChangeLangButton(langManager: langManager, language: .US)
-                ChangeLangButton(langManager: langManager, language: .CN)
+                ForEach(Array(Lang.allCases), id: \.rawValue) { language in
+                    ChangeLangButton(langManager: langManager, language: language)
+                }
             }
         }
         .opacity(langManager.isShowView ? 1 : 0)
