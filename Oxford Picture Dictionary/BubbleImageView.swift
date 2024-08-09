@@ -19,11 +19,13 @@ struct BubbleImageView: View {
     let bubbles: [Bubble]
     let imageName: String
     let title: String
+    let pageCounter: Int
     
     private struct BubbleButton: View {
         @State var isOpened: Bool = false
         let word: String
         let number: Int
+        let pageCounter: Int
         
         var body: some View {
             Button {
@@ -52,10 +54,7 @@ struct BubbleImageView: View {
                 }
             }
             .background(GeometryReader { geo in Color.clear
-                .onChange(of: word) {
-                    // Closes the bubble
-                    // !bug: it won't work if the same word appears
-                    //       in the same index
+                .onChange(of: pageCounter) {
                     isOpened = false
                 }
             })
@@ -99,7 +98,7 @@ struct BubbleImageView: View {
                     GeometryReader { geo in
                         ZStack {
                             ForEach(Array(bubbles.enumerated()), id: \.offset) { index, bubble in
-                                BubbleButton(word: bubble.word, number: index+1)
+                                BubbleButton(word: bubble.word, number: index+1, pageCounter: pageCounter)
                                     .position(
                                         x: geo.size.width * scale * bubble.xPercentage - offset.width + geo.size.width * (1 - scale)/2,
                                         y: geo.size.height * scale * bubble.yPercentage - offset.height + geo.size.height * (1 - scale)/2
@@ -125,6 +124,14 @@ struct BubbleImageView: View {
                 .offset(offset)
                 .gesture(combinedGesture)
                 .animation(.spring(), value: offset)
+            
+            HStack {
+                Spacer()
+                // minus 1 because the book starts from 2
+                Text("\(pageCounter-1)")
+                    .fontWeight(.regular)
+                    .font(.footnote)
+            }
         }
     }
     

@@ -24,7 +24,10 @@ struct ContentView: View {
                         return Bubble(word: word,
                                       xPercentage: CGFloat(Double(position[0])!),
                                       yPercentage: CGFloat(Double(position[1])!))
-                        }, imageName: langManager.imageName, title: langManager.fileLoader.title)
+                        }, 
+                                    imageName: langManager.imageName,
+                                    title: langManager.fileLoader.title,
+                                    pageCounter: langManager.pageCounter)
                 } else {
                     DragBubbleImageView(imageName: langManager.fileLoader.positionFileName)
                 }

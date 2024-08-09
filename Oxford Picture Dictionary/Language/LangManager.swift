@@ -16,7 +16,7 @@ class LangManager: ObservableObject {
     @Published var isShowView: Bool = false
     @Published var imageName: String = "p2"
     
-    private var pageCounter: Int = minPage
+    @Published private(set) var pageCounter: Int = minPage
     private func setCounter(val: Int) -> Void {
         pageCounter = min(max(LangManager.minPage, val), LangManager.maxPage)
         imageName = "p\(pageCounter)"
@@ -66,7 +66,7 @@ class LangManager: ObservableObject {
                 case .US, .UK:
                     return "en"
                 case .CN:
-                    return "zh"
+                    return "zh-Hans"
                 }
             }
             return dash(val: getSuffix())
