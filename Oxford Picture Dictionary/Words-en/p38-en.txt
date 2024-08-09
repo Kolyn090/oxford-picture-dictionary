@@ -12,6 +12,6 @@ repair
 iron
 oil
 change (the sheets)
-vaccum
+vacuum
 dust
 wash
