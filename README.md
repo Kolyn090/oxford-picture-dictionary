@@ -34,8 +34,8 @@ along with its pronunciation.
 ### Development
 Requirement: MacOS system with XCode downloaded.
 
-Clone this repository and open it in XCode. Trust the project and build.
-Build and run with a device of your choice. 
+Clone this repository and open it in XCode. Trust the project,
+build and run with a device of your choice. 
 ### App Store
 Not yet available.
 
