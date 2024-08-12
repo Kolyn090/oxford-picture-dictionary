@@ -33,6 +33,7 @@ along with its pronunciation.
 
 ### Development
 Requirement: MacOS system with XCode downloaded.
+Minimal Deployments requirement: iOS 17.0
 
 Clone this repository and open it in XCode. Trust the project,
 build and run with a device of your choice. 

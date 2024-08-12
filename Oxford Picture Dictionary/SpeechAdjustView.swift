@@ -10,7 +10,7 @@ import SwiftUI
 struct SpeechAdjustView: View {
     @State private var screenWidth: CGFloat = 0
     @State private var screenHeight: CGFloat = 0
-
+    
     
     var body: some View {
         VStack {

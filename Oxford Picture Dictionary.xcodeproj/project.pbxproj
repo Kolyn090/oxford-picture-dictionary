@@ -2214,7 +2214,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "KolynEnterprise.Oxford-Picture-Dictionary";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kolyn090.Oxford-Picture-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -2250,7 +2250,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "KolynEnterprise.Oxford-Picture-Dictionary";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kolyn090.Oxford-Picture-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -2272,7 +2272,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "KolynEnterprise.Oxford-Picture-DictionaryTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kolyn090.Oxford-Picture-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -2295,7 +2295,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "KolynEnterprise.Oxford-Picture-DictionaryTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kolyn090.Oxford-Picture-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -2316,7 +2316,7 @@
 				DEVELOPMENT_TEAM = KDFWD22A6K;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "KolynEnterprise.Oxford-Picture-DictionaryUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kolyn090.Oxford-Picture-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -2337,7 +2337,7 @@
 				DEVELOPMENT_TEAM = KDFWD22A6K;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "KolynEnterprise.Oxford-Picture-DictionaryUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kolyn090.Oxford-Picture-Dictionary";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;

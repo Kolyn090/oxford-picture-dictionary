@@ -18,14 +18,14 @@ struct ContentView: View {
         ZStack {
             ZStack {
                 if ContentView.isUsingDrag == 0 {
-                    BubbleImageView(bubbles: 
+                    BubbleImageView(bubbles:
                                         zip(langManager.fileLoader.positionData,
                                             langManager.fileLoader.wordsData)
-                        .map { (position, word) in
-                        return Bubble(word: word,
-                                      xPercentage: CGFloat(Double(position[0])!),
-                                      yPercentage: CGFloat(Double(position[1])!))
-                        }, 
+                                            .map { (position, word) in
+                                                return Bubble(word: word,
+                                                              xPercentage: CGFloat(Double(position[0])!),
+                                                              yPercentage: CGFloat(Double(position[1])!))
+                                            },
                                     imageName: langManager.imageName,
                                     title: langManager.fileLoader.title,
                                     pageCounter: langManager.pageCounter)
@@ -51,7 +51,7 @@ struct ContentView: View {
                                 .padding()
                                 .background(langManager.isFirstPage ?
                                             Color.Disable :
-                                            Color.ButtonBGColor)
+                                                Color.ButtonBGColor)
                                 .cornerRadius(20)
                                 .foregroundColor(.white)
                             }
@@ -71,7 +71,7 @@ struct ContentView: View {
                                 .padding()
                                 .background(langManager.isLastPage ?
                                             Color.Disable :
-                                            Color.ButtonBGColor)
+                                                Color.ButtonBGColor)
                                 .cornerRadius(20)
                                 .foregroundColor(.white)
                                 
@@ -108,7 +108,7 @@ struct ContentView: View {
                         isShowCredits = false
                     }
                     .opacity(isShowCredits ? 0 : 1)
-                        .padding()
+                    .padding()
                     Spacer()
                 }
             }

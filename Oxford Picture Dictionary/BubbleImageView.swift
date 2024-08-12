@@ -53,10 +53,11 @@ struct BubbleImageView: View {
                     }
                 }
             }
-            .background(GeometryReader { geo in Color.clear
-                .onChange(of: pageCounter) {
-                    isOpened = false
-                }
+            .background(GeometryReader { geo in
+                Color.clear
+                    .onChange(of: pageCounter) {
+                        isOpened = false
+                    }
             })
         }
     }
@@ -105,19 +106,20 @@ struct BubbleImageView: View {
                                     )
                                     .offset(CGSize(width: offset.width, height: offset.height))
                                     .scaleEffect(1/scale)
-                                    
+                                
                             }
                         }
                     }
                 )
-                .background(GeometryReader { geo in Color.clear
-                    .onAppear {
-                        initFrame = geo.frame(in: .global)
-                    }
-                    .onChange(of: imageName) {
-                        offset = .zero
-                        scale = 1.0
-                    }
+                .background(GeometryReader { geo in
+                    Color.clear
+                        .onAppear {
+                            initFrame = geo.frame(in: .global)
+                        }
+                        .onChange(of: imageName) {
+                            offset = .zero
+                            scale = 1.0
+                        }
                 })
                 .scaledToFit()
                 .scaleEffect(scale)
