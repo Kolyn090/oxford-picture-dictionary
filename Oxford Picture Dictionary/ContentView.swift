@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    static let isUsingDrag: Int = 0
+    static let isUsingDrag: Int = 1
     
     @State var isShowCredits: Bool = false
     @ObservedObject var langManager = LangManager(defaultPage: 2, defaultLang: .UK)
