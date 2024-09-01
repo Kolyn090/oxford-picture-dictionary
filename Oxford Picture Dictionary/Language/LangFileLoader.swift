@@ -11,13 +11,13 @@ class LangFileLoader: ObservableObject {
     @Published var positionFileName: String = "" {
         didSet {
             if ContentView.isUsingDrag != 0 { return }
-            positionData = getPositionData(fileName: positionFileName)
+            positionData = LangFileLoader.getPositionData(fileName: positionFileName)
         }
     }
     @Published var wordsFileName: String = "" {
         didSet {
             if ContentView.isUsingDrag != 0 { return }
-            wordsData = getWords(fileName: wordsFileName)
+            wordsData = LangFileLoader.getWords(fileName: wordsFileName)
             if wordsData.isEmpty {
                 title = ""
             } else {
@@ -29,7 +29,7 @@ class LangFileLoader: ObservableObject {
     @Published var wordsData: [String] = []
     @Published var title: String = ""
 
-    func getPositionData(fileName: String) -> [[String]] {
+    static func getPositionData(fileName: String) -> [[String]] {
         if let filePath = Bundle.main.path(forResource: fileName, ofType: "csv") {
             do {
                 let content = try String(contentsOfFile: filePath, encoding: .utf8)
@@ -53,7 +53,7 @@ class LangFileLoader: ObservableObject {
         }
     }
     
-    func getWords(fileName: String) -> [String] {
+    static func getWords(fileName: String) -> [String] {
         if let filePath = Bundle.main.path(forResource: fileName, ofType: "txt") {
             do {
                 let content = try String(contentsOfFile: filePath, encoding: .utf8)
@@ -65,6 +65,12 @@ class LangFileLoader: ObservableObject {
         } else {
             print("File not found: \(fileName)")
             return []
+        }
+    }
+    
+    static func getFirstLineOfFiles(fileNames: [String]) -> [String] {
+        return fileNames.map{ fileName in
+            return getWords(fileName: fileName).first ?? ""
         }
     }
 }

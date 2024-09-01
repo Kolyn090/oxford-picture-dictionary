@@ -431,6 +431,7 @@
 		5D6533B52C65DE42007169CE /* p38-zh-Hans.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6533502C65DE42007169CE /* p38-zh-Hans.txt */; };
 		5D6533B62C65DE42007169CE /* p48-zh-Hans.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6533512C65DE42007169CE /* p48-zh-Hans.txt */; };
 		5D6533B82C65DEA3007169CE /* p2-zh-Hans.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5D6533B72C65DEA3007169CE /* p2-zh-Hans.txt */; };
+		5D989EF02C83F6B7005CFEEB /* SelectScenarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D989EEF2C83F6B7005CFEEB /* SelectScenarioView.swift */; };
 		5DAF8EBB2C62ADA200B41F0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF8EBA2C62ADA200B41F0A /* Constants.swift */; };
 		5DAF8EBD2C62ADB000B41F0A /* UserDefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF8EBC2C62ADB000B41F0A /* UserDefaultsUtils.swift */; };
 		5DAF8EC02C62ADE200B41F0A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAF8EBF2C62ADE200B41F0A /* Color.swift */; };
@@ -886,6 +887,7 @@
 		5D6533502C65DE42007169CE /* p38-zh-Hans.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p38-zh-Hans.txt"; sourceTree = "<group>"; };
 		5D6533512C65DE42007169CE /* p48-zh-Hans.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "p48-zh-Hans.txt"; sourceTree = "<group>"; };
 		5D6533B72C65DEA3007169CE /* p2-zh-Hans.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "p2-zh-Hans.txt"; sourceTree = "<group>"; };
+		5D989EEF2C83F6B7005CFEEB /* SelectScenarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectScenarioView.swift; sourceTree = "<group>"; };
 		5DAF8EBA2C62ADA200B41F0A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5DAF8EBC2C62ADB000B41F0A /* UserDefaultsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtils.swift; sourceTree = "<group>"; };
 		5DAF8EBF2C62ADE200B41F0A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -958,6 +960,7 @@
 				5DB2E3EF2C58552600E03552 /* PercentObservableObject.swift */,
 				5DB2E3E82C58242200E03552 /* SpeechAdjustView.swift */,
 				5D39DE962C668F68004E6F87 /* CreditsView.swift */,
+				5D989EEF2C83F6B7005CFEEB /* SelectScenarioView.swift */,
 				5D37DDC72C646AB90099C54E /* enum */,
 				5DB2E3EA2C58475300E03552 /* components */,
 				5DAF8EBE2C62ADD100B41F0A /* extensions */,
@@ -2016,6 +2019,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D989EF02C83F6B7005CFEEB /* SelectScenarioView.swift in Sources */,
 				5DB2E3E72C581B9B00E03552 /* SpeechManager.swift in Sources */,
 				5D37DDC02C64699C0099C54E /* LangButton.swift in Sources */,
 				5D1296D52C55B05B00A9D40D /* ContentView.swift in Sources */,

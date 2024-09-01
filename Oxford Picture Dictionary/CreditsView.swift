@@ -11,7 +11,7 @@ struct CreditsView: View {
     
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 50)
+            Rectangle()
                 .opacity(1)
                 .foregroundStyle(Color.BackgroundColor)
             

@@ -9,10 +9,11 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    static let isUsingDrag: Int = 1
+    static let isUsingDrag: Int = 0
     
+    @ObservedObject var langManager = LangManager(defaultPage: LangManager.minPage, defaultLang: .UK)
+    @State var isShowSelect: Bool = false
     @State var isShowCredits: Bool = false
-    @ObservedObject var langManager = LangManager(defaultPage: 2, defaultLang: .UK)
     
     var body: some View {
         ZStack {
@@ -33,6 +34,7 @@ struct ContentView: View {
                     DragBubbleImageView(imageName: langManager.fileLoader.positionFileName)
                 }
             }
+            .opacity(isShowSelect || isShowCredits ? 0 : 1)
             
             if ContentView.isUsingDrag == 0 {
                 VStack {
@@ -84,19 +86,26 @@ struct ContentView: View {
                             .padding()
                     }
                 }
+                .opacity(isShowSelect || isShowCredits ? 0 : 1)
             }
             
             LangView(langManager: langManager)
+
+            SelectScenarioView(langManager: langManager, isShow: $isShowSelect, isShowCredits: $isShowCredits)
+                .opacity(isShowSelect ? 1 : 0)
             CreditsView()
                 .opacity(isShowCredits ? 1 : 0)
             
             HStack {
                 VStack {
                     Button {
-                        isShowCredits.toggle()
+                        isShowSelect.toggle()
+                        if isShowCredits {
+                            isShowCredits.toggle()
+                        }
                         langManager.isShowView = false
                     } label: {
-                        Text(isShowCredits ? "Close" : "Credits")
+                        Text(isShowSelect ? "Close" : "Select")
                             .fontWeight(.bold)
                     }
                     .padding()
@@ -105,9 +114,10 @@ struct ContentView: View {
                 Spacer()
                 VStack {
                     LangButton(langManager: langManager) {
+                        isShowSelect = false
                         isShowCredits = false
                     }
-                    .opacity(isShowCredits ? 0 : 1)
+                    .opacity(isShowSelect ? 0 : 1)
                     .padding()
                     Spacer()
                 }

@@ -8,8 +8,8 @@
 import Foundation
 
 class LangManager: ObservableObject {
-    private static var minPage: Int = 2
-    private static var maxPage: Int = 103
+    static var minPage: Int = 2
+    static var maxPage: Int = 103
     
     @Published var fileLoader = LangFileLoader()
     @Published var currentLang: Lang = .UK
@@ -29,6 +29,9 @@ class LangManager: ObservableObject {
     func goToNextPage() -> Void {
         setCounter(val: pageCounter+1)
     }
+    func goToSelectedPage(pageNumber: Int) -> Void {
+        setCounter(val: pageNumber)
+    }
     
     var isFirstPage: Bool {
         get {
@@ -46,6 +49,10 @@ class LangManager: ObservableObject {
         get {
             return "p\(pageCounter)\(csvNameSuffix)"
         }
+    }
+    
+    public func getCSVNama(pageNumber: Int) -> String {
+        return "p\(pageNumber)\(csvNameSuffix)"
     }
     
     init(defaultPage: Int, defaultLang: Lang) {
