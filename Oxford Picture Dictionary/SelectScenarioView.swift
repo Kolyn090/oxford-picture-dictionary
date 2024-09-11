@@ -30,14 +30,27 @@ struct SelectScenarioView: View {
     
     var body: some View {
         VStack {
-            Button {
-                isShowCredits = true
-            } label: {
-                Text("Credits...")
-                    .font(.title2)
+            HStack {
+                Text("       ")
+                
+                Spacer()
+                
+                Text("Table of Contents")
+                    .font(.title)
                     .fontWeight(.bold)
                     .padding(.top)
+                
+                Spacer()
+                
+                Button {
+                    isShowCredits = true
+                } label: {
+                    Text("Credits")
+                        .fontWeight(.regular)
+                        .padding(.top)
+                }
             }
+            .padding()
             
             List(Array(scenarioPages.enumerated()), id: \.offset) { index, pageNumber in
                 HStack {
