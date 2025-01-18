@@ -10,6 +10,24 @@ of the Preface, the authors have described the book as:
 students of English. It provides students a glance at American
 lifestyle, as well as compendium of useful vocabulary.
 
+# Disclaimer
+This project has not been authorized by Oxford University Press. Any image products come from The New Oxford Picture Dictionary used in this project are owned by Oxford University Press. I am using them for practice and educational purposes. 
+
+
+❌ What you cannot do to this project:
+1. use any material presented in it for commercial purpose
+2. sell it to others (not even a modified version)
+3. use AI tools to analyze it
+4. use it in an advertising-supported website
+5. use it in a product that generates revenue
+6. Change the license
+
+
+✔ What you can do to this project:
+1. Improve this project, like clone, fork & send a Pull Request
+2. Academic research & education
+3. Non-profit organizations
+
 ### In this project, I have:
 * Greatly improved image resolution by utilizing [AI Image enhancement](https://letsenhance.io/boost)
 * Made numbered tags interactive
